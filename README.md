@@ -26,6 +26,53 @@ Processed Dataset for Analytics
 
 ---
 
+## System Design (Phase 1)
+
+### Components
+
+- **Data source (CSV files)**: Raw files land in `data/input/` (bind-mounted into containers).
+- **Orchestrator (Apache Airflow)**:
+  - **Scheduled pipeline**: runs daily at 5:00 AM to process the latest input data.
+  - **Event-driven pipeline**: watches the input directory and triggers processing when new files arrive.
+  - **Airflow UI + logs**: provides run history, task retries, and debugging output.
+- **Processing engine (Apache Spark / PySpark)**:
+  - Reads input CSVs, performs cleaning/transformation, and writes results.
+  - Can run in a distributed mode (Spark master/workers) inside Docker.
+- **Storage layer (Delta Lake)**:
+  - Output is written in **Delta format** to `data/output/` to provide **ACID transactions**, consistent reads, and scalable file-based storage.
+
+### Data Flow
+
+1. **Ingest**: CSV files are placed into `data/input/`.
+2. **Trigger**:
+   - **Daily DAG** triggers at 5:00 AM, or
+   - **Event DAG** triggers when new files appear in `data/input/`.
+3. **Process (Spark job)**:
+   - Read CSVs (header + schema inference)
+   - Remove duplicates
+   - Handle missing/null values
+   - Add `processing_timestamp`
+4. **Persist (Delta)**: Write the curated dataset as a Delta table under `data/output/` using overwrite mode.
+5. **Consume**: Analytics tools / downstream jobs read from the Delta output.
+
+### Reliability & Idempotency
+
+- **Idempotent writes**: The Spark job writes with **overwrite**, so reruns produce the same deterministic output for the same input snapshot.
+- **Airflow retries**: transient failures are handled via task retries (configured in DAGs), with full logs available in the UI.
+- **Delta Lake guarantees**: Delta provides transactional consistency and protects against partial writes.
+
+### Scalability
+
+- **Horizontal scaling**: Spark can scale out via worker containers to handle larger datasets.
+- **Schema handling**: Schema inference is enabled for quick prototyping; schema enforcement/evolution can be added as an enhancement for production hardening.
+
+### Observability
+
+- **Airflow UI**: run status, retries, task logs.
+- **Spark logs/UI**: job stages, performance metrics, executor details (when enabled in the Spark setup).
+
+---
+
 ## Technology Stack
 
 * Python
