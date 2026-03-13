@@ -1,0 +1,70 @@
+# Docker Compose stack for local development:
+# - Airflow: orchestration + UI
+# - Spark: compute engine to run jobs in `spark_jobs/`
+#
+# Volumes:
+# - Airflow reads DAGs from `../dags`
+# - Spark reads job code from `../spark_jobs`
+# - Both services share `../data` for input/output
+
+services:
+  # -----------------------------
+  # Spark (master)
+  # -----------------------------
+  spark:
+    image: apache/spark:3.5.1
+    container_name: de_spark
+    environment:
+      # Run Spark in "master" mode so you have a stable endpoint for clients.
+      - SPARK_MODE=master
+    volumes:
+      # Spark job code (mounted read-only to avoid accidental edits in container)
+      - ../spark_jobs:/opt/spark_jobs:ro
+      # Shared data (input/output)
+      - ../data:/opt/data
+    ports:
+      # Optional: Spark Master Web UI
+      - "8080:8080"
+      # Optional: Spark Master RPC (useful if adding workers later)
+      - "7077:7077"
+
+  # -----------------------------
+  # Airflow (all-in-one container)
+  # -----------------------------
+  airflow:
+    image: apache/airflow:2.9.3
+    container_name: de_airflow
+    depends_on:
+      # Airflow DAGs may call Spark; ensure Spark is up first.
+      - spark
+    environment:
+      # Use the simplest executor for a hackathon/local setup.
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      # Store Airflow metadata in a local SQLite DB inside the container.
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+      # Avoid writing example DAGs into the UI.
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      # Create an admin user on startup (airflow/airflow).
+      - _AIRFLOW_WWW_USER_USERNAME=airflow
+      - _AIRFLOW_WWW_USER_PASSWORD=airflow
+    volumes:
+      # Airflow DAG definitions (mounted read-only)
+      - ../dags:/opt/airflow/dags:ro
+      # Shared data (input/output)
+      - ../data:/opt/data
+    ports:
+      # Airflow Web UI (kept on 8081 to match README)
+      - "8081:8080"
+    command: >
+      bash -c "
+      airflow db migrate &&
+      airflow users create
+        --role Admin
+        --username \"$${_AIRFLOW_WWW_USER_USERNAME}\"
+        --password \"$${_AIRFLOW_WWW_USER_PASSWORD}\"
+        --firstname Admin
+        --lastname User
+        --email admin@example.com || true &&
+      airflow webserver --port 8080 &
+      airflow scheduler
+      "
