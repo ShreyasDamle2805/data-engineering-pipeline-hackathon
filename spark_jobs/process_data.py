@@ -144,6 +144,7 @@ def write_output_data(df, output_base_path: str):
     """
     parquet_path = output_base_path.rstrip("/") + "/processed_parquet/"
     csv_path = output_base_path.rstrip("/") + "/processed_csv/"
+    clean_csv_path = "/opt/data/clean_data_csv/"
 
     # Analytics-friendly format
     df.write.mode("overwrite").parquet(parquet_path)
@@ -151,8 +152,12 @@ def write_output_data(df, output_base_path: str):
     # Human-readable output for quick inspection in the folder
     df.coalesce(1).write.mode("overwrite").option("header", "true").csv(csv_path)
 
+    # Dedicated folder for cleaned CSV data (separate from output reports/artifacts)
+    df.coalesce(1).write.mode("overwrite").option("header", "true").csv(clean_csv_path)
+
     print(f"Wrote Parquet output to: {parquet_path}")
     print(f"Wrote CSV output to: {csv_path}")
+    print(f"Wrote Clean CSV output to: {clean_csv_path}")
 
 
 def main():
