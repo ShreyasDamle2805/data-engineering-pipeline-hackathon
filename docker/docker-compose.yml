@@ -52,6 +52,8 @@ services:
       - ../dags:/opt/airflow/dags:ro
       # Shared data (input/output)
       - ../data:/opt/data
+      # Spark job code, so Airflow can call spark-submit on it
+      - ../spark_jobs:/opt/airflow/spark_jobs:ro
     ports:
       # Airflow Web UI (kept on 8081 to match README)
       - "8081:8080"
