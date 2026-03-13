@@ -23,7 +23,7 @@ Data Cleaning & Transformation
 Delta Lake Storage
 ↓
 Processed Dataset for Analytics
-
+![System Architecture](architecture.png)
 ---
 
 ## System Design (Phase 1)
