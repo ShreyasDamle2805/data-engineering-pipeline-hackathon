@@ -7,8 +7,8 @@ Runs a Spark job every day at 5:00 AM.
 from __future__ import annotations
 
 from datetime import timedelta
-
 import pendulum
+
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 
@@ -26,14 +26,16 @@ with DAG(
     dag_id="daily_spark_pipeline",
     description="Run Spark processing daily at 5:00 AM.",
     default_args=default_args,
-    start_date=pendulum.datetime(2026, 1, 1, tz="UTC"),
-    schedule="0 5 * * *",
+    start_date=pendulum.datetime(2024, 1, 1, tz="UTC"),
+    schedule_interval="0 5 * * *",  # Run every day at 5 AM
     catchup=False,
     tags=["spark", "daily"],
 ) as dag:
-    # Submit the Spark job that performs the data processing.
+
+    # Submit the Spark job that performs the data processing
     run_spark_job = BashOperator(
         task_id="run_spark_job",
         bash_command="spark-submit /opt/airflow/spark_jobs/process_data.py",
     )
 
+    run_spark_job
