@@ -14,6 +14,7 @@ services:
   spark:
     image: apache/spark:3.5.1
     container_name: de_spark
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.master.Master", "--host", "spark", "--port", "7077", "--webui-port", "8080"]
     environment:
       # Run Spark in "master" mode so you have a stable endpoint for clients.
       - SPARK_MODE=master
@@ -27,6 +28,23 @@ services:
       - "8080:8080"
       # Optional: Spark Master RPC (useful if adding workers later)
       - "7077:7077"
+
+  # -----------------------------
+  # Spark worker
+  # -----------------------------
+  spark-worker:
+    image: apache/spark:3.5.1
+    container_name: de_spark_worker
+    depends_on:
+      - spark
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker", "spark://spark:7077"]
+    environment:
+      - SPARK_MODE=worker
+    volumes:
+      - ../data:/opt/data
+      - ../spark_jobs:/opt/spark_jobs:ro
+    ports:
+      - "8082:8081"
 
   # -----------------------------
   # Airflow (all-in-one container)
@@ -44,12 +62,16 @@ services:
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
       # Avoid writing example DAGs into the UI.
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      # Provide default filesystem connection required by FileSensor.
+      - AIRFLOW_CONN_FS_DEFAULT=fs:///
       # Create an admin user on startup (airflow/airflow).
       - _AIRFLOW_WWW_USER_USERNAME=airflow
       - _AIRFLOW_WWW_USER_PASSWORD=airflow
     volumes:
       # Airflow DAG definitions (mounted read-only)
       - ../dags:/opt/airflow/dags:ro
+      # Persist Airflow logs across container recreates
+      - ../data/airflow/logs:/opt/airflow/logs
       # Shared data (input/output)
       - ../data:/opt/data
       # Spark job code for running PySpark script from Airflow
