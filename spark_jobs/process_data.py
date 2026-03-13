@@ -5,18 +5,9 @@ from pyspark.sql.types import NumericType, StringType
 
 def create_spark_session(app_name: str = "ProcessData") -> SparkSession:
     """
-    Create and return a SparkSession configured for Delta Lake.
-    Assumes Delta Lake dependencies are available in the environment.
+    Create and return a SparkSession.
     """
-    spark = (
-        SparkSession.builder.appName(app_name)
-        .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
-        .config(
-            "spark.sql.catalog.spark_catalog",
-            "org.apache.spark.sql.delta.catalog.DeltaCatalog",
-        )
-        .getOrCreate()
-    )
+    spark = SparkSession.builder.appName(app_name).getOrCreate()
     spark.sparkContext.setLogLevel("WARN")
     return spark
 
@@ -78,13 +69,15 @@ def add_processing_timestamp(df):
 
 def write_output_data(df, output_path: str):
     """
-    Write the DataFrame to Delta format in overwrite mode.
+    Write the DataFrame in overwrite mode.
+    Tries Delta first; falls back to Parquet if Delta jars are unavailable.
     """
-    (
-        df.write.format("delta")
-        .mode("overwrite")
-        .save(output_path)
-    )
+    try:
+        df.write.format("delta").mode("overwrite").save(output_path)
+    except Exception as exc:
+        fallback_path = output_path.rstrip("/") + "_parquet/"
+        print(f"Delta write unavailable ({exc}). Writing Parquet to {fallback_path}")
+        df.write.mode("overwrite").parquet(fallback_path)
 
 
 def main():
