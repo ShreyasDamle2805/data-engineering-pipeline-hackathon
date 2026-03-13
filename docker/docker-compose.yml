@@ -32,7 +32,7 @@ services:
   # Airflow (all-in-one container)
   # -----------------------------
   airflow:
-    image: apache/airflow:2.9.3
+    build: ./airflow
     container_name: de_airflow
     depends_on:
       # Airflow DAGs may call Spark; ensure Spark is up first.
@@ -52,6 +52,8 @@ services:
       - ../dags:/opt/airflow/dags:ro
       # Shared data (input/output)
       - ../data:/opt/data
+      # Spark job code for running PySpark script from Airflow
+      - ../spark_jobs:/opt/airflow/spark_jobs:ro
     ports:
       # Airflow Web UI (kept on 8081 to match README)
       - "8081:8080"

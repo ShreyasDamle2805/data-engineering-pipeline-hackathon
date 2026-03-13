@@ -38,10 +38,10 @@ with DAG(
         mode="poke",
     )
 
-    # Run the Spark job once the file is detected
+    # Submit the Spark job to the Spark master once the file is detected
     run_spark_job = BashOperator(
         task_id="run_spark_job",
-        bash_command="spark-submit /opt/spark_jobs/process_data.py",
+        bash_command="spark-submit --master spark://spark:7077 /opt/airflow/spark_jobs/process_data.py",
     )
 
     # Define task order
