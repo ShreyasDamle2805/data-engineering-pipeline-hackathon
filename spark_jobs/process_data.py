@@ -88,8 +88,9 @@ def write_output_data(df, output_path: str):
 
 
 def main():
-    input_path = "data/input/"
-    output_path = "data/output/"
+    # Use absolute paths that match Docker volume mounts (/opt/data is shared)
+    input_path = "/opt/data/input/"
+    output_path = "/opt/data/output/processed/"
 
     spark = create_spark_session()
 
