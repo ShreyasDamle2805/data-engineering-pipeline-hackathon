@@ -1,3 +1,4 @@
 # Runtime artifacts
 data/airflow/logs/
 data/output/
+data/archive/
