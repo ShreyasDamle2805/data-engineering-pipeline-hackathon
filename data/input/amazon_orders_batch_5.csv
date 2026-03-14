@@ -1,0 +1,184 @@
+order_id,order_date,ship_date,ship_mode,customer_id,customer_name,segment,country,city,state,postal_code,region,product_id,category,sub_category,product_name,sales,quantity,discount,profit
+AMZ-ORD-0004001,2026-01-02,2026-01-05,First Class,CUST-00108,Priya Sharma,Consumer,India,Delhi,Delhi,400006,North,PROD-00089,Home,Kitchen,Backpack,431.13,2,0.04,68.98
+AMZ-ORD-0004002,2026-01-03,2026-01-06,Same Day,CUST-00115,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400007,South,PROD-00097,Fashion,Apparel,Smart Plug,442.26,3,0.08,53.07
+AMZ-ORD-0004003,2026-01-04,2026-01-07,Standard Class,CUST-00122,Neha Verma,Consumer,India,Hyderabad,Telangana,400008,South,PROD-00105,Beauty,Skincare,Office Chair,453.39,4,0.12,36.27
+AMZ-ORD-0004004,2026-01-05,2026-01-08,Second Class,CUST-00129,Kabir Nair,Consumer,India,Pune,Maharashtra,400009,West,PROD-00113,Office,Stationery,Bluetooth Earbuds,464.52,1,0.16,18.58
+AMZ-ORD-0004005,2026-01-06,2026-01-09,First Class,CUST-00136,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400010,South,PROD-00121,Electronics,Accessories,Echo Dot Speaker,475.65,2,0.2,9.51
+AMZ-ORD-0004006,2026-01-07,2026-01-10,Same Day,CUST-00143,Vihaan Das,Consumer,India,Kolkata,West Bengal,400011,East,PROD-00129,Home,Kitchen,Backpack,486.78,3,0.24,9.74
+AMZ-ORD-0004007,2026-01-08,2026-01-11,Standard Class,CUST-00150,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400012,West,PROD-00137,Fashion,Apparel,Smart Plug,497.91,4,0.28,9.96
+AMZ-ORD-0004008,2026-01-09,2026-01-12,Second Class,CUST-00157,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400013,North,PROD-00145,Beauty,Skincare,Office Chair,509.04,1,0,101.81
+AMZ-ORD-0004009,2026-01-10,2026-01-13,First Class,CUST-00164,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400014,North,PROD-00153,Office,Stationery,Bluetooth Earbuds,510,2,0.04,81.6
+AMZ-ORD-0004009,2026-01-10,2026-01-13,First Class,CUST-00164,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400014,North,PROD-00153,Office,Stationery,Bluetooth Earbuds,510,2,0.04,81.6
+AMZ-ORD-0004010,2026-01-11,2026-01-14,Same Day,CUST-00171,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400015,West,PROD-00161,Electronics,Accessories,Echo Dot Speaker,521.13,3,0.08,62.54
+AMZ-ORD-0004011,2026-01-12,2026-01-15,Standard Class,CUST-00178,Priya Sharma,Consumer,India,Delhi,Delhi,400016,North,PROD-00169,Home,Kitchen,Backpack,532.26,4,0.12,42.58
+AMZ-ORD-0004012,2026-01-13,2026-01-16,Second Class,CUST-00185,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400017,South,PROD-00177,Fashion,Apparel,Smart Plug,543.39,1,0.16,21.74
+AMZ-ORD-0004013,2026-01-14,2026-01-17,First Class,CUST-00192,Neha Verma,Consumer,India,Hyderabad,Telangana,400018,South,PROD-00185,Beauty,Skincare,Office Chair,554.52,2,1.45,11.09
+AMZ-ORD-0004014,2026-01-15,2026-01-18,Same Day,CUST-00199,Kabir Nair,Consumer,India,Pune,Maharashtra,400019,West,PROD-00193,Office,Stationery,Bluetooth Earbuds,565.65,3,0.24,11.31
+AMZ-ORD-0004015,2026-01-16,2026-01-19,Standard Class,CUST-00206,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400020,South,PROD-00201,Electronics,Accessories,Echo Dot Speaker,576.78,-3,0.28,11.54
+AMZ-ORD-0004016,2026-01-17,2026-01-20,Second Class,CUST-00213,Vihaan Das,Consumer,India,Kolkata,West Bengal,400021,East,PROD-00209,Home,Kitchen,Backpack,bad_sales,1,0,117.58
+AMZ-ORD-0004017,2026-01-18,2026-01-21,First Class,CUST-00220,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400022,West,PROD-00217,Fashion,Apparel,Smart Plug,599.04,2,0.04,95.85
+AMZ-ORD-0004018,2026-01-19,2026-01-22,Same Day,CUST-00227,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400023,North,PROD-00225,Beauty,Skincare,Office Chair,600,3,0.08,72
+AMZ-ORD-0004018,2026-01-19,2026-01-22,Same Day,CUST-00227,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400023,North,PROD-00225,Beauty,Skincare,Office Chair,600,3,0.08,72
+AMZ-ORD-0004019,2026-01-20,2026-01-23,Standard Class,CUST-00234,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400024,North,PROD-00233,Office,Stationery,Bluetooth Earbuds,611.13,4,0.12,48.89
+AMZ-ORD-0004020,2026-01-21,2026-01-24,Second Class,CUST-00241,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400025,West,PROD-00241,Electronics,Accessories,Echo Dot Speaker,622.26,1,0.16,24.89
+AMZ-ORD-0004021,2026-01-22,2026-01-25,First Class,CUST-00248,Priya Sharma,Consumer,India,Delhi,Delhi,400026,North,PROD-00249,Home,Kitchen,Backpack,633.39,2,0.2,12.67
+AMZ-ORD-0004022,2026-13-77,2026-01-26,Same Day,CUST-00255,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400027,South,PROD-00257,Fashion,Apparel,Smart Plug,644.52,3,0.24,12.89
+AMZ-ORD-0004023,2026-01-24,2026-01-27,Standard Class,CUST-00262,Neha Verma,Consumer,India,Hyderabad,Telangana,400028,South,PROD-00265,Beauty,Skincare,Office Chair,655.65,4,0.28,13.11
+AMZ-ORD-0004024,2026-01-25,2026-01-28,Second Class,CUST-00269,Kabir Nair,Consumer,India,Pune,Maharashtra,400029,West,PROD-00273,Office,Stationery,Bluetooth Earbuds,666.78,1,0,133.36
+AMZ-ORD-0004025,2026-01-26,2026-01-29,First Class,CUST-00276,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400030,South,PROD-00281,Electronics,Accessories,Echo Dot Speaker,677.91,2,0.04,108.47
+AMZ-ORD-0004026,2026-01-27,2026-01-30,Same Day,CUST-00283,Vihaan Das,Consumer,India,Kolkata,West Bengal,400031,East,PROD-00289,Home,Kitchen,Backpack,689.04,3,1.45,82.68
+AMZ-ORD-0004027,2026-01-28,2026-01-31,Standard Class,CUST-00290,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400032,West,PROD-00297,Fashion,Apparel,Smart Plug,690,4,0.12,55.2
+AMZ-ORD-0004027,2026-01-28,2026-01-31,Standard Class,CUST-00290,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400032,West,PROD-00297,Fashion,Apparel,Smart Plug,690,4,0.12,55.2
+AMZ-ORD-0004028,2026-01-29,2026-02-01,Second Class,CUST-00297,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400033,North,PROD-00305,Beauty,Skincare,Office Chair,701.13,1,0.16,28.05
+AMZ-ORD-0004029,2026-01-30,2026-02-02,First Class,CUST-00004,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400034,North,PROD-00313,Office,Stationery,Bluetooth Earbuds,712.26,2,0.2,14.25
+AMZ-ORD-0004030,2026-01-31,2026-02-03,Same Day,CUST-00011,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400035,West,PROD-00321,Electronics,Accessories,Echo Dot Speaker,723.39,-3,0.24,14.47
+AMZ-ORD-0004031,2026-02-01,2026-02-04,Standard Class,CUST-00018,Priya Sharma,Consumer,India,Delhi,Delhi,400036,North,PROD-00329,Home,Kitchen,Backpack,734.52,4,0.28,14.69
+AMZ-ORD-0004032,2026-02-02,2026-02-05,Second Class,CUST-00025,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400037,South,PROD-00337,Fashion,Apparel,Smart Plug,bad_sales,1,0,149.13
+AMZ-ORD-0004033,2026-02-03,2026-02-06,First Class,CUST-00032,Neha Verma,Consumer,India,Hyderabad,Telangana,400038,South,PROD-00345,Beauty,Skincare,Office Chair,756.78,2,0.04,121.08
+AMZ-ORD-0004034,2026-02-04,2026-02-07,Same Day,,Kabir Nair,Consumer,India,Pune,Maharashtra,400039,West,PROD-00353,Office,Stationery,Bluetooth Earbuds,767.91,3,0.08,92.15
+AMZ-ORD-0004035,2026-02-05,2026-02-08,Standard Class,CUST-00046,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400040,South,PROD-00361,Electronics,Accessories,Echo Dot Speaker,779.04,4,0.12,62.32
+AMZ-ORD-0004036,2026-02-06,2026-02-09,Second Class,CUST-00053,Vihaan Das,Consumer,India,Kolkata,West Bengal,400041,East,PROD-00369,Home,Kitchen,Backpack,780,1,0.16,31.2
+AMZ-ORD-0004036,2026-02-06,2026-02-09,Second Class,CUST-00053,Vihaan Das,Consumer,India,Kolkata,West Bengal,400041,East,PROD-00369,Home,Kitchen,Backpack,780,1,0.16,31.2
+AMZ-ORD-0004037,2026-02-07,2026-02-10,First Class,CUST-00060,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400042,West,PROD-00377,Fashion,Apparel,Smart Plug,791.13,2,0.2,15.82
+,2026-02-08,2026-02-11,Same Day,CUST-00067,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400043,North,PROD-00385,Beauty,Skincare,Office Chair,802.26,3,0.24,16.05
+AMZ-ORD-0004039,2026-02-09,2026-02-12,Standard Class,CUST-00074,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400044,North,PROD-00393,Office,Stationery,Bluetooth Earbuds,813.39,4,1.45,16.27
+AMZ-ORD-0004040,2026-01-01,2026-01-04,Second Class,CUST-00081,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400045,West,PROD-00401,Electronics,Accessories,Echo Dot Speaker,824.52,1,0,164.9
+AMZ-ORD-0004041,2026-01-02,2026-01-05,First Class,CUST-00088,Priya Sharma,Consumer,India,Delhi,Delhi,400046,North,PROD-00409,Home,Kitchen,Backpack,835.65,2,0.04,133.7
+AMZ-ORD-0004042,2026-01-03,2026-01-06,Same Day,CUST-00095,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400047,South,PROD-00417,Fashion,Apparel,Smart Plug,846.78,3,0.08,101.61
+AMZ-ORD-0004043,2026-01-04,2026-01-07,Standard Class,CUST-00102,Neha Verma,Consumer,India,Hyderabad,Telangana,400048,South,PROD-00005,Beauty,Skincare,Office Chair,857.91,4,0.12,68.63
+AMZ-ORD-0004044,2026-13-77,2026-01-08,Second Class,CUST-00109,Kabir Nair,Consumer,India,Pune,Maharashtra,400049,West,PROD-00013,Office,Stationery,Bluetooth Earbuds,869.04,1,0.16,34.76
+AMZ-ORD-0004045,2026-01-06,2026-01-09,First Class,CUST-00116,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400050,South,PROD-00021,Electronics,Accessories,Echo Dot Speaker,870,-3,0.2,17.4
+AMZ-ORD-0004045,2026-01-06,2026-01-09,First Class,CUST-00116,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400050,South,PROD-00021,Electronics,Accessories,Echo Dot Speaker,870,-3,0.2,17.4
+AMZ-ORD-0004046,2026-01-07,2026-01-10,Same Day,CUST-00123,Vihaan Das,Consumer,India,Kolkata,West Bengal,400051,East,PROD-00029,Home,Kitchen,Backpack,881.13,3,0.24,17.62
+AMZ-ORD-0004047,2026-01-08,2026-01-11,Standard Class,CUST-00130,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400052,West,PROD-00037,Fashion,Apparel,Smart Plug,892.26,4,0.28,17.85
+AMZ-ORD-0004048,2026-01-09,2026-01-12,Second Class,CUST-00137,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400053,North,PROD-00045,Beauty,Skincare,Office Chair,bad_sales,1,0,180.68
+AMZ-ORD-0004049,2026-01-10,2026-01-13,First Class,CUST-00144,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400054,North,PROD-00053,Office,Stationery,Bluetooth Earbuds,914.52,2,0.04,146.32
+AMZ-ORD-0004050,2026-01-11,2026-01-14,Same Day,CUST-00151,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400055,West,PROD-00061,Electronics,Accessories,Echo Dot Speaker,25.65,3,0.08,3.08
+AMZ-ORD-0004051,2026-01-12,2026-01-15,Standard Class,CUST-00158,Priya Sharma,Consumer,India,Delhi,Delhi,400056,North,PROD-00069,Home,Kitchen,Backpack,36.78,4,0.12,2.94
+AMZ-ORD-0004052,2026-01-13,2026-01-16,Second Class,CUST-00165,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400057,South,PROD-00077,Fashion,Apparel,Smart Plug,47.91,1,1.45,1.92
+AMZ-ORD-0004053,2026-01-14,2026-01-17,First Class,CUST-00172,Neha Verma,Consumer,India,Hyderabad,Telangana,400058,South,PROD-00085,Beauty,Skincare,Office Chair,59.04,2,0.2,1.18
+AMZ-ORD-0004054,2026-01-15,2026-01-18,Same Day,CUST-00179,Kabir Nair,Consumer,India,Pune,Maharashtra,400059,West,PROD-00093,Office,Stationery,Bluetooth Earbuds,60,3,0.24,1.2
+AMZ-ORD-0004054,2026-01-15,2026-01-18,Same Day,CUST-00179,Kabir Nair,Consumer,India,Pune,Maharashtra,400059,West,PROD-00093,Office,Stationery,Bluetooth Earbuds,60,3,0.24,1.2
+AMZ-ORD-0004055,2026-01-16,2026-01-19,Standard Class,CUST-00186,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400060,South,PROD-00101,Electronics,Accessories,Echo Dot Speaker,71.13,4,0.28,1.42
+AMZ-ORD-0004056,2026-01-17,2026-01-20,Second Class,CUST-00193,Vihaan Das,Consumer,India,Kolkata,West Bengal,400061,East,PROD-00109,Home,Kitchen,Backpack,82.26,1,0,16.45
+AMZ-ORD-0004057,2026-01-18,2026-01-21,First Class,CUST-00200,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400062,West,PROD-00117,Fashion,Apparel,Smart Plug,93.39,2,0.04,14.94
+AMZ-ORD-0004058,2026-01-19,2026-01-22,Same Day,CUST-00207,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400063,North,PROD-00125,Beauty,Skincare,Office Chair,104.52,3,0.08,12.54
+AMZ-ORD-0004059,2026-01-20,2026-01-23,Standard Class,CUST-00214,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400064,North,PROD-00133,Office,Stationery,Bluetooth Earbuds,115.65,4,0.12,9.25
+AMZ-ORD-0004060,2026-01-21,2026-01-24,Second Class,CUST-00221,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400065,West,PROD-00141,Electronics,Accessories,Echo Dot Speaker,126.78,-3,0.16,5.07
+AMZ-ORD-0004061,2026-01-22,2026-01-25,First Class,CUST-00228,Priya Sharma,Consumer,India,Delhi,Delhi,400066,North,PROD-00149,Home,Kitchen,Backpack,137.91,2,0.2,2.76
+AMZ-ORD-0004062,2026-01-23,2026-01-26,Same Day,CUST-00235,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400067,South,PROD-00157,Fashion,Apparel,Smart Plug,149.04,3,0.24,2.98
+AMZ-ORD-0004063,2026-01-24,2026-01-27,Standard Class,CUST-00242,Neha Verma,Consumer,India,Hyderabad,Telangana,400068,South,PROD-00165,Beauty,Skincare,Office Chair,150,4,0.28,3
+AMZ-ORD-0004063,2026-01-24,2026-01-27,Standard Class,CUST-00242,Neha Verma,Consumer,India,Hyderabad,Telangana,400068,South,PROD-00165,Beauty,Skincare,Office Chair,150,4,0.28,3
+AMZ-ORD-0004064,2026-01-25,2026-01-28,Second Class,CUST-00249,Kabir Nair,Consumer,India,Pune,Maharashtra,400069,West,PROD-00173,Office,Stationery,Bluetooth Earbuds,bad_sales,1,0,32.23
+AMZ-ORD-0004065,2026-01-26,2026-01-29,First Class,CUST-00256,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400070,South,PROD-00181,Electronics,Accessories,Echo Dot Speaker,172.26,2,1.45,27.56
+AMZ-ORD-0004066,2026-13-77,2026-01-30,Same Day,CUST-00263,Vihaan Das,Consumer,India,Kolkata,West Bengal,400071,East,PROD-00189,Home,Kitchen,Backpack,183.39,3,0.08,22.01
+AMZ-ORD-0004067,2026-01-28,2026-01-31,Standard Class,CUST-00270,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400072,West,PROD-00197,Fashion,Apparel,Smart Plug,194.52,4,0.12,15.56
+AMZ-ORD-0004068,2026-01-29,2026-02-01,Second Class,,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400073,North,PROD-00205,Beauty,Skincare,Office Chair,205.65,1,0.16,8.23
+AMZ-ORD-0004069,2026-01-30,2026-02-02,First Class,CUST-00284,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400074,North,PROD-00213,Office,Stationery,Bluetooth Earbuds,216.78,2,0.2,4.34
+AMZ-ORD-0004070,2026-01-31,2026-02-03,Same Day,CUST-00291,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400075,West,PROD-00221,Electronics,Accessories,Echo Dot Speaker,227.91,3,0.24,4.56
+AMZ-ORD-0004071,2026-02-01,2026-02-04,Standard Class,CUST-00298,Priya Sharma,Consumer,India,Delhi,Delhi,400076,North,PROD-00229,Home,Kitchen,Backpack,239.04,4,0.28,4.78
+AMZ-ORD-0004072,2026-02-02,2026-02-05,Second Class,CUST-00005,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400077,South,PROD-00237,Fashion,Apparel,Smart Plug,240,1,0,48
+AMZ-ORD-0004072,2026-02-02,2026-02-05,Second Class,CUST-00005,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400077,South,PROD-00237,Fashion,Apparel,Smart Plug,240,1,0,48
+AMZ-ORD-0004073,2026-02-03,2026-02-06,First Class,CUST-00012,Neha Verma,Consumer,India,Hyderabad,Telangana,400078,South,PROD-00245,Beauty,Skincare,Office Chair,251.13,2,0.04,40.18
+AMZ-ORD-0004074,2026-02-04,2026-02-07,Same Day,CUST-00019,Kabir Nair,Consumer,India,Pune,Maharashtra,400079,West,PROD-00253,Office,Stationery,Bluetooth Earbuds,262.26,3,0.08,31.47
+AMZ-ORD-0004075,2026-02-05,2026-02-08,Standard Class,CUST-00026,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400080,South,PROD-00261,Electronics,Accessories,Echo Dot Speaker,273.39,-3,0.12,21.87
+,2026-02-06,2026-02-09,Second Class,CUST-00033,Vihaan Das,Consumer,India,Kolkata,West Bengal,400081,East,PROD-00269,Home,Kitchen,Backpack,284.52,1,0.16,11.38
+AMZ-ORD-0004077,2026-02-07,2026-02-10,First Class,CUST-00040,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400082,West,PROD-00277,Fashion,Apparel,Smart Plug,295.65,2,0.2,5.91
+AMZ-ORD-0004078,2026-02-08,2026-02-11,Same Day,CUST-00047,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400083,North,PROD-00285,Beauty,Skincare,Office Chair,306.78,3,1.45,6.14
+AMZ-ORD-0004079,2026-02-09,2026-02-12,Standard Class,CUST-00054,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400084,North,PROD-00293,Office,Stationery,Bluetooth Earbuds,317.91,4,0.28,6.36
+AMZ-ORD-0004080,2026-01-01,2026-01-04,Second Class,CUST-00061,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400085,West,PROD-00301,Electronics,Accessories,Echo Dot Speaker,bad_sales,1,0,65.81
+AMZ-ORD-0004081,2026-01-02,2026-01-05,First Class,CUST-00068,Priya Sharma,Consumer,India,Delhi,Delhi,400086,North,PROD-00309,Home,Kitchen,Backpack,330,2,0.04,52.8
+AMZ-ORD-0004081,2026-01-02,2026-01-05,First Class,CUST-00068,Priya Sharma,Consumer,India,Delhi,Delhi,400086,North,PROD-00309,Home,Kitchen,Backpack,330,2,0.04,52.8
+AMZ-ORD-0004082,2026-01-03,2026-01-06,Same Day,CUST-00075,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400087,South,PROD-00317,Fashion,Apparel,Smart Plug,341.13,3,0.08,40.94
+AMZ-ORD-0004083,2026-01-04,2026-01-07,Standard Class,CUST-00082,Neha Verma,Consumer,India,Hyderabad,Telangana,400088,South,PROD-00325,Beauty,Skincare,Office Chair,352.26,4,0.12,28.18
+AMZ-ORD-0004084,2026-01-05,2026-01-08,Second Class,CUST-00089,Kabir Nair,Consumer,India,Pune,Maharashtra,400089,West,PROD-00333,Office,Stationery,Bluetooth Earbuds,363.39,1,0.16,14.54
+AMZ-ORD-0004085,2026-01-06,2026-01-09,First Class,CUST-00096,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400090,South,PROD-00341,Electronics,Accessories,Echo Dot Speaker,374.52,2,0.2,7.49
+AMZ-ORD-0004086,2026-01-07,2026-01-10,Same Day,CUST-00103,Vihaan Das,Consumer,India,Kolkata,West Bengal,400091,East,PROD-00349,Home,Kitchen,Backpack,385.65,3,0.24,7.71
+AMZ-ORD-0004087,2026-01-08,2026-01-11,Standard Class,CUST-00110,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400092,West,PROD-00357,Fashion,Apparel,Smart Plug,396.78,4,0.28,7.94
+AMZ-ORD-0004088,2026-13-77,2026-01-12,Second Class,CUST-00117,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400093,North,PROD-00365,Beauty,Skincare,Office Chair,407.91,1,0,81.58
+AMZ-ORD-0004089,2026-01-10,2026-01-13,First Class,CUST-00124,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400094,North,PROD-00373,Office,Stationery,Bluetooth Earbuds,419.04,2,0.04,67.05
+AMZ-ORD-0004090,2026-01-11,2026-01-14,Same Day,CUST-00131,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400095,West,PROD-00381,Electronics,Accessories,Echo Dot Speaker,420,-3,0.08,50.4
+AMZ-ORD-0004090,2026-01-11,2026-01-14,Same Day,CUST-00131,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400095,West,PROD-00381,Electronics,Accessories,Echo Dot Speaker,420,-3,0.08,50.4
+AMZ-ORD-0004091,2026-01-12,2026-01-15,Standard Class,CUST-00138,Priya Sharma,Consumer,India,Delhi,Delhi,400096,North,PROD-00389,Home,Kitchen,Backpack,431.13,4,1.45,34.49
+AMZ-ORD-0004092,2026-01-13,2026-01-16,Second Class,CUST-00145,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400097,South,PROD-00397,Fashion,Apparel,Smart Plug,442.26,1,0.16,17.69
+AMZ-ORD-0004093,2026-01-14,2026-01-17,First Class,CUST-00152,Neha Verma,Consumer,India,Hyderabad,Telangana,400098,South,PROD-00405,Beauty,Skincare,Office Chair,453.39,2,0.2,9.07
+AMZ-ORD-0004094,2026-01-15,2026-01-18,Same Day,CUST-00159,Kabir Nair,Consumer,India,Pune,Maharashtra,400099,West,PROD-00413,Office,Stationery,Bluetooth Earbuds,464.52,3,0.24,9.29
+AMZ-ORD-0004095,2026-01-16,2026-01-19,Standard Class,CUST-00166,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400100,South,PROD-00001,Electronics,Accessories,Echo Dot Speaker,475.65,4,0.28,9.51
+AMZ-ORD-0004096,2026-01-17,2026-01-20,Second Class,CUST-00173,Vihaan Das,Consumer,India,Kolkata,West Bengal,400101,East,PROD-00009,Home,Kitchen,Backpack,bad_sales,1,0,97.36
+AMZ-ORD-0004097,2026-01-18,2026-01-21,First Class,CUST-00180,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400102,West,PROD-00017,Fashion,Apparel,Smart Plug,497.91,2,0.04,79.67
+AMZ-ORD-0004098,2026-01-19,2026-01-22,Same Day,CUST-00187,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400103,North,PROD-00025,Beauty,Skincare,Office Chair,509.04,3,0.08,61.08
+AMZ-ORD-0004099,2026-01-20,2026-01-23,Standard Class,CUST-00194,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400104,North,PROD-00033,Office,Stationery,Bluetooth Earbuds,510,4,0.12,40.8
+AMZ-ORD-0004099,2026-01-20,2026-01-23,Standard Class,CUST-00194,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400104,North,PROD-00033,Office,Stationery,Bluetooth Earbuds,510,4,0.12,40.8
+AMZ-ORD-0004100,2026-01-21,2026-01-24,Second Class,CUST-00201,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400105,West,PROD-00041,Electronics,Accessories,Echo Dot Speaker,521.13,1,0.16,20.85
+AMZ-ORD-0004101,2026-01-22,2026-01-25,First Class,CUST-00208,Priya Sharma,Consumer,India,Delhi,Delhi,400106,North,PROD-00049,Home,Kitchen,Backpack,532.26,2,0.2,10.65
+AMZ-ORD-0004102,2026-01-23,2026-01-26,Same Day,,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400107,South,PROD-00057,Fashion,Apparel,Smart Plug,543.39,3,0.24,10.87
+AMZ-ORD-0004103,2026-01-24,2026-01-27,Standard Class,CUST-00222,Neha Verma,Consumer,India,Hyderabad,Telangana,400108,South,PROD-00065,Beauty,Skincare,Office Chair,554.52,4,0.28,11.09
+AMZ-ORD-0004104,2026-01-25,2026-01-28,Second Class,CUST-00229,Kabir Nair,Consumer,India,Pune,Maharashtra,400109,West,PROD-00073,Office,Stationery,Bluetooth Earbuds,565.65,1,1.45,113.13
+AMZ-ORD-0004105,2026-01-26,2026-01-29,First Class,CUST-00236,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400110,South,PROD-00081,Electronics,Accessories,Echo Dot Speaker,576.78,-3,0.04,92.28
+AMZ-ORD-0004106,2026-01-27,2026-01-30,Same Day,CUST-00243,Vihaan Das,Consumer,India,Kolkata,West Bengal,400111,East,PROD-00089,Home,Kitchen,Backpack,587.91,3,0.08,70.55
+AMZ-ORD-0004107,2026-01-28,2026-01-31,Standard Class,CUST-00250,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400112,West,PROD-00097,Fashion,Apparel,Smart Plug,599.04,4,0.12,47.92
+AMZ-ORD-0004108,2026-01-29,2026-02-01,Second Class,CUST-00257,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400113,North,PROD-00105,Beauty,Skincare,Office Chair,600,1,0.16,24
+AMZ-ORD-0004108,2026-01-29,2026-02-01,Second Class,CUST-00257,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400113,North,PROD-00105,Beauty,Skincare,Office Chair,600,1,0.16,24
+AMZ-ORD-0004109,2026-01-30,2026-02-02,First Class,CUST-00264,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400114,North,PROD-00113,Office,Stationery,Bluetooth Earbuds,611.13,2,0.2,12.22
+AMZ-ORD-0004110,2026-13-77,2026-02-03,Same Day,CUST-00271,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400115,West,PROD-00121,Electronics,Accessories,Echo Dot Speaker,622.26,3,0.24,12.45
+AMZ-ORD-0004111,2026-02-01,2026-02-04,Standard Class,CUST-00278,Priya Sharma,Consumer,India,Delhi,Delhi,400116,North,PROD-00129,Home,Kitchen,Backpack,633.39,4,0.28,12.67
+AMZ-ORD-0004112,2026-02-02,2026-02-05,Second Class,CUST-00285,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400117,South,PROD-00137,Fashion,Apparel,Smart Plug,bad_sales,1,0,128.9
+AMZ-ORD-0004113,2026-02-03,2026-02-06,First Class,CUST-00292,Neha Verma,Consumer,India,Hyderabad,Telangana,400118,South,PROD-00145,Beauty,Skincare,Office Chair,655.65,2,0.04,104.9
+,2026-02-04,2026-02-07,Same Day,CUST-00299,Kabir Nair,Consumer,India,Pune,Maharashtra,400119,West,PROD-00153,Office,Stationery,Bluetooth Earbuds,666.78,3,0.08,80.01
+AMZ-ORD-0004115,2026-02-05,2026-02-08,Standard Class,CUST-00006,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400120,South,PROD-00161,Electronics,Accessories,Echo Dot Speaker,677.91,4,0.12,54.23
+AMZ-ORD-0004116,2026-02-06,2026-02-09,Second Class,CUST-00013,Vihaan Das,Consumer,India,Kolkata,West Bengal,400121,East,PROD-00169,Home,Kitchen,Backpack,689.04,1,0.16,27.56
+AMZ-ORD-0004117,2026-02-07,2026-02-10,First Class,CUST-00020,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400122,West,PROD-00177,Fashion,Apparel,Smart Plug,690,2,1.45,13.8
+AMZ-ORD-0004117,2026-02-07,2026-02-10,First Class,CUST-00020,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400122,West,PROD-00177,Fashion,Apparel,Smart Plug,690,2,1.45,13.8
+AMZ-ORD-0004118,2026-02-08,2026-02-11,Same Day,CUST-00027,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400123,North,PROD-00185,Beauty,Skincare,Office Chair,701.13,3,0.24,14.02
+AMZ-ORD-0004119,2026-02-09,2026-02-12,Standard Class,CUST-00034,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400124,North,PROD-00193,Office,Stationery,Bluetooth Earbuds,712.26,4,0.28,14.25
+AMZ-ORD-0004120,2026-01-01,2026-01-04,Second Class,CUST-00041,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400125,West,PROD-00201,Electronics,Accessories,Echo Dot Speaker,723.39,-3,0,144.68
+AMZ-ORD-0004121,2026-01-02,2026-01-05,First Class,CUST-00048,Priya Sharma,Consumer,India,Delhi,Delhi,400126,North,PROD-00209,Home,Kitchen,Backpack,734.52,2,0.04,117.52
+AMZ-ORD-0004122,2026-01-03,2026-01-06,Same Day,CUST-00055,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400127,South,PROD-00217,Fashion,Apparel,Smart Plug,745.65,3,0.08,89.48
+AMZ-ORD-0004123,2026-01-04,2026-01-07,Standard Class,CUST-00062,Neha Verma,Consumer,India,Hyderabad,Telangana,400128,South,PROD-00225,Beauty,Skincare,Office Chair,756.78,4,0.12,60.54
+AMZ-ORD-0004124,2026-01-05,2026-01-08,Second Class,CUST-00069,Kabir Nair,Consumer,India,Pune,Maharashtra,400129,West,PROD-00233,Office,Stationery,Bluetooth Earbuds,767.91,1,0.16,30.72
+AMZ-ORD-0004125,2026-01-06,2026-01-09,First Class,CUST-00076,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400130,South,PROD-00241,Electronics,Accessories,Echo Dot Speaker,779.04,2,0.2,15.58
+AMZ-ORD-0004126,2026-01-07,2026-01-10,Same Day,CUST-00083,Vihaan Das,Consumer,India,Kolkata,West Bengal,400131,East,PROD-00249,Home,Kitchen,Backpack,780,3,0.24,15.6
+AMZ-ORD-0004126,2026-01-07,2026-01-10,Same Day,CUST-00083,Vihaan Das,Consumer,India,Kolkata,West Bengal,400131,East,PROD-00249,Home,Kitchen,Backpack,780,3,0.24,15.6
+AMZ-ORD-0004127,2026-01-08,2026-01-11,Standard Class,CUST-00090,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400132,West,PROD-00257,Fashion,Apparel,Smart Plug,791.13,4,0.28,15.82
+AMZ-ORD-0004128,2026-01-09,2026-01-12,Second Class,CUST-00097,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400133,North,PROD-00265,Beauty,Skincare,Office Chair,bad_sales,1,0,160.45
+AMZ-ORD-0004129,2026-01-10,2026-01-13,First Class,CUST-00104,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400134,North,PROD-00273,Office,Stationery,Bluetooth Earbuds,813.39,2,0.04,130.14
+AMZ-ORD-0004130,2026-01-11,2026-01-14,Same Day,CUST-00111,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400135,West,PROD-00281,Electronics,Accessories,Echo Dot Speaker,824.52,3,1.45,98.94
+AMZ-ORD-0004131,2026-01-12,2026-01-15,Standard Class,CUST-00118,Priya Sharma,Consumer,India,Delhi,Delhi,400136,North,PROD-00289,Home,Kitchen,Backpack,835.65,4,0.12,66.85
+AMZ-ORD-0004132,2026-13-77,2026-01-16,Second Class,CUST-00125,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400137,South,PROD-00297,Fashion,Apparel,Smart Plug,846.78,1,0.16,33.87
+AMZ-ORD-0004133,2026-01-14,2026-01-17,First Class,CUST-00132,Neha Verma,Consumer,India,Hyderabad,Telangana,400138,South,PROD-00305,Beauty,Skincare,Office Chair,857.91,2,0.2,17.16
+AMZ-ORD-0004134,2026-01-15,2026-01-18,Same Day,CUST-00139,Kabir Nair,Consumer,India,Pune,Maharashtra,400139,West,PROD-00313,Office,Stationery,Bluetooth Earbuds,869.04,3,0.24,17.38
+AMZ-ORD-0004135,2026-01-16,2026-01-19,Standard Class,CUST-00146,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400140,South,PROD-00321,Electronics,Accessories,Echo Dot Speaker,870,-3,0.28,17.4
+AMZ-ORD-0004135,2026-01-16,2026-01-19,Standard Class,CUST-00146,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400140,South,PROD-00321,Electronics,Accessories,Echo Dot Speaker,870,-3,0.28,17.4
+AMZ-ORD-0004136,2026-01-17,2026-01-20,Second Class,,Vihaan Das,Consumer,India,Kolkata,West Bengal,400141,East,PROD-00329,Home,Kitchen,Backpack,881.13,1,0,176.23
+AMZ-ORD-0004137,2026-01-18,2026-01-21,First Class,CUST-00160,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400142,West,PROD-00337,Fashion,Apparel,Smart Plug,892.26,2,0.04,142.76
+AMZ-ORD-0004138,2026-01-19,2026-01-22,Same Day,CUST-00167,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400143,North,PROD-00345,Beauty,Skincare,Office Chair,903.39,3,0.08,108.41
+AMZ-ORD-0004139,2026-01-20,2026-01-23,Standard Class,CUST-00174,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400144,North,PROD-00353,Office,Stationery,Bluetooth Earbuds,914.52,4,0.12,73.16
+AMZ-ORD-0004140,2026-01-21,2026-01-24,Second Class,CUST-00181,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400145,West,PROD-00361,Electronics,Accessories,Echo Dot Speaker,25.65,1,0.16,1.03
+AMZ-ORD-0004141,2026-01-22,2026-01-25,First Class,CUST-00188,Priya Sharma,Consumer,India,Delhi,Delhi,400146,North,PROD-00369,Home,Kitchen,Backpack,36.78,2,0.2,0.74
+AMZ-ORD-0004142,2026-01-23,2026-01-26,Same Day,CUST-00195,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400147,South,PROD-00377,Fashion,Apparel,Smart Plug,47.91,3,0.24,0.96
+AMZ-ORD-0004143,2026-01-24,2026-01-27,Standard Class,CUST-00202,Neha Verma,Consumer,India,Hyderabad,Telangana,400148,South,PROD-00385,Beauty,Skincare,Office Chair,59.04,4,1.45,1.18
+AMZ-ORD-0004144,2026-01-25,2026-01-28,Second Class,CUST-00209,Kabir Nair,Consumer,India,Pune,Maharashtra,400149,West,PROD-00393,Office,Stationery,Bluetooth Earbuds,bad_sales,1,0,12
+AMZ-ORD-0004144,2026-01-25,2026-01-28,Second Class,CUST-00209,Kabir Nair,Consumer,India,Pune,Maharashtra,400149,West,PROD-00393,Office,Stationery,Bluetooth Earbuds,bad_sales,1,0,12
+AMZ-ORD-0004145,2026-01-26,2026-01-29,First Class,CUST-00216,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400150,South,PROD-00401,Electronics,Accessories,Echo Dot Speaker,71.13,2,0.04,11.38
+AMZ-ORD-0004146,2026-01-27,2026-01-30,Same Day,CUST-00223,Vihaan Das,Consumer,India,Kolkata,West Bengal,400151,East,PROD-00409,Home,Kitchen,Backpack,82.26,3,0.08,9.87
+AMZ-ORD-0004147,2026-01-28,2026-01-31,Standard Class,CUST-00230,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400152,West,PROD-00417,Fashion,Apparel,Smart Plug,93.39,4,0.12,7.47
+AMZ-ORD-0004148,2026-01-29,2026-02-01,Second Class,CUST-00237,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400153,North,PROD-00005,Beauty,Skincare,Office Chair,104.52,1,0.16,4.18
+AMZ-ORD-0004149,2026-01-30,2026-02-02,First Class,CUST-00244,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400154,North,PROD-00013,Office,Stationery,Bluetooth Earbuds,115.65,2,0.2,2.31
+AMZ-ORD-0004150,2026-01-31,2026-02-03,Same Day,CUST-00251,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400155,West,PROD-00021,Electronics,Accessories,Echo Dot Speaker,126.78,-3,0.24,2.54
+AMZ-ORD-0004151,2026-02-01,2026-02-04,Standard Class,CUST-00258,Priya Sharma,Consumer,India,Delhi,Delhi,400156,North,PROD-00029,Home,Kitchen,Backpack,137.91,4,0.28,2.76
+,2026-02-02,2026-02-05,Second Class,CUST-00265,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400157,South,PROD-00037,Fashion,Apparel,Smart Plug,149.04,1,0,29.81
+AMZ-ORD-0004153,2026-02-03,2026-02-06,First Class,CUST-00272,Neha Verma,Consumer,India,Hyderabad,Telangana,400158,South,PROD-00045,Beauty,Skincare,Office Chair,150,2,0.04,24
+AMZ-ORD-0004153,2026-02-03,2026-02-06,First Class,CUST-00272,Neha Verma,Consumer,India,Hyderabad,Telangana,400158,South,PROD-00045,Beauty,Skincare,Office Chair,150,2,0.04,24
+AMZ-ORD-0004154,2026-13-77,2026-02-07,Same Day,CUST-00279,Kabir Nair,Consumer,India,Pune,Maharashtra,400159,West,PROD-00053,Office,Stationery,Bluetooth Earbuds,161.13,3,0.08,19.34
+AMZ-ORD-0004155,2026-02-05,2026-02-08,Standard Class,CUST-00286,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400160,South,PROD-00061,Electronics,Accessories,Echo Dot Speaker,172.26,4,0.12,13.78
+AMZ-ORD-0004156,2026-02-06,2026-02-09,Second Class,CUST-00293,Vihaan Das,Consumer,India,Kolkata,West Bengal,400161,East,PROD-00069,Home,Kitchen,Backpack,183.39,1,1.45,7.34
+AMZ-ORD-0004157,2026-02-07,2026-02-10,First Class,CUST-00300,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400162,West,PROD-00077,Fashion,Apparel,Smart Plug,194.52,2,0.2,3.89
+AMZ-ORD-0004158,2026-02-08,2026-02-11,Same Day,CUST-00007,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400163,North,PROD-00085,Beauty,Skincare,Office Chair,205.65,3,0.24,4.11
+AMZ-ORD-0004159,2026-02-09,2026-02-12,Standard Class,CUST-00014,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400164,North,PROD-00093,Office,Stationery,Bluetooth Earbuds,216.78,4,0.28,4.34
+AMZ-ORD-0004160,2026-01-01,2026-01-04,Second Class,CUST-00021,Aarav Singh,Consumer,India,Mumbai,Maharashtra,400165,West,PROD-00101,Electronics,Accessories,Echo Dot Speaker,bad_sales,1,0,45.58
+AMZ-ORD-0004161,2026-01-02,2026-01-05,First Class,CUST-00028,Priya Sharma,Consumer,India,Delhi,Delhi,400166,North,PROD-00109,Home,Kitchen,Backpack,239.04,2,0.04,38.25
+AMZ-ORD-0004162,2026-01-03,2026-01-06,Same Day,CUST-00035,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400167,South,PROD-00117,Fashion,Apparel,Smart Plug,240,3,0.08,28.8
+AMZ-ORD-0004162,2026-01-03,2026-01-06,Same Day,CUST-00035,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400167,South,PROD-00117,Fashion,Apparel,Smart Plug,240,3,0.08,28.8
+AMZ-ORD-0004163,2026-01-04,2026-01-07,Standard Class,CUST-00042,Neha Verma,Consumer,India,Hyderabad,Telangana,400168,South,PROD-00125,Beauty,Skincare,Office Chair,251.13,4,0.12,20.09
+AMZ-ORD-0004164,2026-01-05,2026-01-08,Second Class,CUST-00049,Kabir Nair,Consumer,India,Pune,Maharashtra,400169,West,PROD-00133,Office,Stationery,Bluetooth Earbuds,262.26,1,0.16,10.49
+AMZ-ORD-0004165,2026-01-06,2026-01-09,First Class,CUST-00056,Anaya Rao,Consumer,India,Chennai,Tamil Nadu,400170,South,PROD-00141,Electronics,Accessories,Echo Dot Speaker,273.39,-3,0.2,5.47

@@ -1,0 +1,6 @@
+order_id,order_date,ship_date,ship_mode,customer_id,customer_name,segment,country,city,state,postal_code,region,product_id,category,sub_category,product_name,sales,quantity,discount,profit,source_file,processing_timestamp
+SIMP-001,2026-03-01,2026-03-03,Standard Class,CUST-S01,Riya,Consumer,India,Pune,Maharashtra,411001,West,PROD-S01,Electronics,Accessories,Phone Case,499.0,2,0.1,89.8,live_proof_20260314_130703.csv,2026-03-14T07:37:36.465Z
+SIMP-002,2026-03-02,2026-03-04,Second Class,CUST-S02,Arjun,Consumer,India,Mumbai,Maharashtra,400001,West,PROD-S02,Home,Kitchen,Water Bottle,299.0,1,0.05,35.0,live_proof_20260314_130703.csv,2026-03-14T07:37:36.465Z
+SIMP-003,2026-03-02,2026-03-05,First Class,CUST-S03,Neha,Corporate,India,Delhi,Delhi,110001,North,PROD-S03,Fashion,Apparel,T-Shirt,999.0,3,0.2,150.0,live_proof_20260314_130703.csv,2026-03-14T07:37:36.465Z
+SIMP-004,2026-03-03,2026-03-06,Same Day,CUST-S04,Karan,Home Office,India,Bengaluru,Karnataka,560001,South,PROD-S04,Office,Stationery,Notebook,199.0,2,0.0,40.0,live_proof_20260314_130703.csv,2026-03-14T07:37:36.465Z
+SIMP-005,2026-03-04,2026-03-07,Standard Class,CUST-S05,Meera,Consumer,India,Chennai,Tamil Nadu,600001,South,PROD-S05,Beauty,Skincare,Face Wash,349.0,1,0.15,52.0,live_proof_20260314_130703.csv,2026-03-14T07:37:36.465Z

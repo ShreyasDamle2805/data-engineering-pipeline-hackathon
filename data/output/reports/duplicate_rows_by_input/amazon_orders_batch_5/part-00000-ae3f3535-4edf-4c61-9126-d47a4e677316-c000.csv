@@ -1,0 +1,27 @@
+source_file,order_id,product_id,order_date,customer_id,ship_date,ship_mode,customer_name,segment,country,city,state,postal_code,region,category,sub_category,product_name,sales,quantity,discount,profit
+amazon_orders_batch_5.csv,AMZ-ORD-0004009,PROD-00153,2026-01-10,CUST-00164,2026-01-13,First Class,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400014,North,Office,Stationery,Bluetooth Earbuds,510.0,2,0.04,81.6
+amazon_orders_batch_5.csv,AMZ-ORD-0004009,PROD-00153,2026-01-10,CUST-00164,2026-01-13,First Class,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400014,North,Office,Stationery,Bluetooth Earbuds,510.0,2,0.04,81.6
+amazon_orders_batch_5.csv,AMZ-ORD-0004018,PROD-00225,2026-01-19,CUST-00227,2026-01-22,Same Day,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400023,North,Beauty,Skincare,Office Chair,600.0,3,0.08,72.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004018,PROD-00225,2026-01-19,CUST-00227,2026-01-22,Same Day,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400023,North,Beauty,Skincare,Office Chair,600.0,3,0.08,72.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004027,PROD-00297,2026-01-28,CUST-00290,2026-01-31,Standard Class,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400032,West,Fashion,Apparel,Smart Plug,690.0,4,0.12,55.2
+amazon_orders_batch_5.csv,AMZ-ORD-0004027,PROD-00297,2026-01-28,CUST-00290,2026-01-31,Standard Class,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400032,West,Fashion,Apparel,Smart Plug,690.0,4,0.12,55.2
+amazon_orders_batch_5.csv,AMZ-ORD-0004036,PROD-00369,2026-02-06,CUST-00053,2026-02-09,Second Class,Vihaan Das,Consumer,India,Kolkata,West Bengal,400041,East,Home,Kitchen,Backpack,780.0,1,0.16,31.2
+amazon_orders_batch_5.csv,AMZ-ORD-0004036,PROD-00369,2026-02-06,CUST-00053,2026-02-09,Second Class,Vihaan Das,Consumer,India,Kolkata,West Bengal,400041,East,Home,Kitchen,Backpack,780.0,1,0.16,31.2
+amazon_orders_batch_5.csv,AMZ-ORD-0004054,PROD-00093,2026-01-15,CUST-00179,2026-01-18,Same Day,Kabir Nair,Consumer,India,Pune,Maharashtra,400059,West,Office,Stationery,Bluetooth Earbuds,60.0,3,0.24,1.2
+amazon_orders_batch_5.csv,AMZ-ORD-0004054,PROD-00093,2026-01-15,CUST-00179,2026-01-18,Same Day,Kabir Nair,Consumer,India,Pune,Maharashtra,400059,West,Office,Stationery,Bluetooth Earbuds,60.0,3,0.24,1.2
+amazon_orders_batch_5.csv,AMZ-ORD-0004063,PROD-00165,2026-01-24,CUST-00242,2026-01-27,Standard Class,Neha Verma,Consumer,India,Hyderabad,Telangana,400068,South,Beauty,Skincare,Office Chair,150.0,4,0.28,3.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004063,PROD-00165,2026-01-24,CUST-00242,2026-01-27,Standard Class,Neha Verma,Consumer,India,Hyderabad,Telangana,400068,South,Beauty,Skincare,Office Chair,150.0,4,0.28,3.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004072,PROD-00237,2026-02-02,CUST-00005,2026-02-05,Second Class,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400077,South,Fashion,Apparel,Smart Plug,240.0,1,0.0,48.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004072,PROD-00237,2026-02-02,CUST-00005,2026-02-05,Second Class,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400077,South,Fashion,Apparel,Smart Plug,240.0,1,0.0,48.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004081,PROD-00309,2026-01-02,CUST-00068,2026-01-05,First Class,Priya Sharma,Consumer,India,Delhi,Delhi,400086,North,Home,Kitchen,Backpack,330.0,2,0.04,52.8
+amazon_orders_batch_5.csv,AMZ-ORD-0004081,PROD-00309,2026-01-02,CUST-00068,2026-01-05,First Class,Priya Sharma,Consumer,India,Delhi,Delhi,400086,North,Home,Kitchen,Backpack,330.0,2,0.04,52.8
+amazon_orders_batch_5.csv,AMZ-ORD-0004099,PROD-00033,2026-01-20,CUST-00194,2026-01-23,Standard Class,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400104,North,Office,Stationery,Bluetooth Earbuds,510.0,4,0.12,40.8
+amazon_orders_batch_5.csv,AMZ-ORD-0004099,PROD-00033,2026-01-20,CUST-00194,2026-01-23,Standard Class,Meera Joshi,Consumer,India,Lucknow,Uttar Pradesh,400104,North,Office,Stationery,Bluetooth Earbuds,510.0,4,0.12,40.8
+amazon_orders_batch_5.csv,AMZ-ORD-0004108,PROD-00105,2026-01-29,CUST-00257,2026-02-01,Second Class,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400113,North,Beauty,Skincare,Office Chair,600.0,1,0.16,24.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004108,PROD-00105,2026-01-29,CUST-00257,2026-02-01,Second Class,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400113,North,Beauty,Skincare,Office Chair,600.0,1,0.16,24.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004126,PROD-00249,2026-01-07,CUST-00083,2026-01-10,Same Day,Vihaan Das,Consumer,India,Kolkata,West Bengal,400131,East,Home,Kitchen,Backpack,780.0,3,0.24,15.6
+amazon_orders_batch_5.csv,AMZ-ORD-0004126,PROD-00249,2026-01-07,CUST-00083,2026-01-10,Same Day,Vihaan Das,Consumer,India,Kolkata,West Bengal,400131,East,Home,Kitchen,Backpack,780.0,3,0.24,15.6
+amazon_orders_batch_5.csv,AMZ-ORD-0004153,PROD-00045,2026-02-03,CUST-00272,2026-02-06,First Class,Neha Verma,Consumer,India,Hyderabad,Telangana,400158,South,Beauty,Skincare,Office Chair,150.0,2,0.04,24.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004153,PROD-00045,2026-02-03,CUST-00272,2026-02-06,First Class,Neha Verma,Consumer,India,Hyderabad,Telangana,400158,South,Beauty,Skincare,Office Chair,150.0,2,0.04,24.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004162,PROD-00117,2026-01-03,CUST-00035,2026-01-06,Same Day,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400167,South,Fashion,Apparel,Smart Plug,240.0,3,0.08,28.8
+amazon_orders_batch_5.csv,AMZ-ORD-0004162,PROD-00117,2026-01-03,CUST-00035,2026-01-06,Same Day,Rohan Patel,Consumer,India,Bengaluru,Karnataka,400167,South,Fashion,Apparel,Smart Plug,240.0,3,0.08,28.8

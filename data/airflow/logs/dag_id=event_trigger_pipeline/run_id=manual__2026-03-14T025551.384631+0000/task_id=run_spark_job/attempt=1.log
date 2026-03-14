@@ -1,0 +1,133 @@
+[2026-03-14T02:55:55.483+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-14T02:55:55.504+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: event_trigger_pipeline.run_spark_job manual__2026-03-14T02:55:51.384631+00:00 [queued]>
+[2026-03-14T02:55:55.510+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: event_trigger_pipeline.run_spark_job manual__2026-03-14T02:55:51.384631+00:00 [queued]>
+[2026-03-14T02:55:55.512+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-03-14T02:55:55.544+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): run_spark_job> on 2026-03-14 02:55:51.384631+00:00
+[2026-03-14T02:55:55.551+0000] {standard_task_runner.py:64} INFO - Started process 15227 to run task
+[2026-03-14T02:55:55.555+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'event_trigger_pipeline', 'run_spark_job', 'manual__2026-03-14T02:55:51.384631+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/event_trigger_pipeline.py', '--cfg-path', '/tmp/tmp6dqbc8m9']
+[2026-03-14T02:55:55.559+0000] {standard_task_runner.py:91} INFO - Job 31: Subtask run_spark_job
+[2026-03-14T02:55:55.671+0000] {task_command.py:426} INFO - Running <TaskInstance: event_trigger_pipeline.run_spark_job manual__2026-03-14T02:55:51.384631+00:00 [running]> on host 670d40c6e2a9
+[2026-03-14T02:55:55.799+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='event_trigger_pipeline' AIRFLOW_CTX_TASK_ID='run_spark_job' AIRFLOW_CTX_EXECUTION_DATE='2026-03-14T02:55:51.384631+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-14T02:55:51.384631+00:00'
+[2026-03-14T02:55:55.801+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-14T02:55:55.814+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-03-14T02:55:55.816+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'spark-submit --master local[*] /opt/airflow/spark_jobs/process_data.py']
+[2026-03-14T02:55:55.827+0000] {subprocess.py:86} INFO - Output:
+[2026-03-14T02:55:55.908+0000] {subprocess.py:93} INFO - /home/airflow/.local/lib/python3.12/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found
+[2026-03-14T02:55:58.880+0000] {subprocess.py:93} INFO - /opt/airflow/spark_jobs/process_data.py:168: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+[2026-03-14T02:55:58.881+0000] {subprocess.py:93} INFO -   run_id = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+[2026-03-14T02:55:58.971+0000] {subprocess.py:93} INFO - 26/03/14 02:55:58 INFO SparkContext: Running Spark version 3.5.1
+[2026-03-14T02:55:58.973+0000] {subprocess.py:93} INFO - 26/03/14 02:55:58 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+[2026-03-14T02:55:58.974+0000] {subprocess.py:93} INFO - 26/03/14 02:55:58 INFO SparkContext: Java version 17.0.18
+[2026-03-14T02:55:59.031+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2026-03-14T02:55:59.150+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO ResourceUtils: ==============================================================
+[2026-03-14T02:55:59.152+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2026-03-14T02:55:59.153+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO ResourceUtils: ==============================================================
+[2026-03-14T02:55:59.154+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SparkContext: Submitted application: ProcessData
+[2026-03-14T02:55:59.180+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2026-03-14T02:55:59.190+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO ResourceProfile: Limiting resource is cpu
+[2026-03-14T02:55:59.193+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2026-03-14T02:55:59.262+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SecurityManager: Changing view acls to: airflow
+[2026-03-14T02:55:59.264+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SecurityManager: Changing modify acls to: airflow
+[2026-03-14T02:55:59.265+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SecurityManager: Changing view acls groups to:
+[2026-03-14T02:55:59.266+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SecurityManager: Changing modify acls groups to:
+[2026-03-14T02:55:59.266+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: airflow; groups with view permissions: EMPTY; users with modify permissions: airflow; groups with modify permissions: EMPTY
+[2026-03-14T02:55:59.545+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO Utils: Successfully started service 'sparkDriver' on port 39995.
+[2026-03-14T02:55:59.584+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SparkEnv: Registering MapOutputTracker
+[2026-03-14T02:55:59.629+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SparkEnv: Registering BlockManagerMaster
+[2026-03-14T02:55:59.647+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2026-03-14T02:55:59.648+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2026-03-14T02:55:59.655+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2026-03-14T02:55:59.685+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-c0bec229-f8a8-4de2-84a9-88183d6ba26d
+[2026-03-14T02:55:59.703+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2026-03-14T02:55:59.729+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO SparkEnv: Registering OutputCommitCoordinator
+[2026-03-14T02:55:59.852+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2026-03-14T02:55:59.909+0000] {subprocess.py:93} INFO - 26/03/14 02:55:59 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2026-03-14T02:56:00.001+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO Executor: Starting executor ID driver on host 670d40c6e2a9
+[2026-03-14T02:56:00.005+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO Executor: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+[2026-03-14T02:56:00.006+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO Executor: Java version 17.0.18
+[2026-03-14T02:56:00.010+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2026-03-14T02:56:00.012+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@35081789 for default.
+[2026-03-14T02:56:00.034+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35077.
+[2026-03-14T02:56:00.035+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO NettyBlockTransferService: Server created on 670d40c6e2a9:35077
+[2026-03-14T02:56:00.036+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2026-03-14T02:56:00.040+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 670d40c6e2a9, 35077, None)
+[2026-03-14T02:56:00.043+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO BlockManagerMasterEndpoint: Registering block manager 670d40c6e2a9:35077 with 434.4 MiB RAM, BlockManagerId(driver, 670d40c6e2a9, 35077, None)
+[2026-03-14T02:56:00.049+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 670d40c6e2a9, 35077, None)
+[2026-03-14T02:56:00.050+0000] {subprocess.py:93} INFO - 26/03/14 02:56:00 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 670d40c6e2a9, 35077, None)
+[2026-03-14T02:56:06.397+0000] {subprocess.py:93} INFO - === Raw Data Schema ===
+[2026-03-14T02:56:06.402+0000] {subprocess.py:93} INFO - root
+[2026-03-14T02:56:06.403+0000] {subprocess.py:93} INFO -  |-- id: integer (nullable = true)
+[2026-03-14T02:56:06.405+0000] {subprocess.py:93} INFO -  |-- name: string (nullable = true)
+[2026-03-14T02:56:06.406+0000] {subprocess.py:93} INFO -  |-- amount: integer (nullable = true)
+[2026-03-14T02:56:06.407+0000] {subprocess.py:93} INFO - 
+[2026-03-14T02:56:06.409+0000] {subprocess.py:93} INFO - === Sample Raw Data ===
+[2026-03-14T02:56:06.699+0000] {subprocess.py:93} INFO - +---+-------+------+
+[2026-03-14T02:56:06.700+0000] {subprocess.py:93} INFO - |id |name   |amount|
+[2026-03-14T02:56:06.701+0000] {subprocess.py:93} INFO - +---+-------+------+
+[2026-03-14T02:56:06.702+0000] {subprocess.py:93} INFO - |1  |Alice  |209   |
+[2026-03-14T02:56:06.703+0000] {subprocess.py:93} INFO - |2  |Charlie|343   |
+[2026-03-14T02:56:06.704+0000] {subprocess.py:93} INFO - |3  |Charlie|359   |
+[2026-03-14T02:56:06.705+0000] {subprocess.py:93} INFO - |4  |Alice  |362   |
+[2026-03-14T02:56:06.706+0000] {subprocess.py:93} INFO - |5  |Ivy    |150   |
+[2026-03-14T02:56:06.707+0000] {subprocess.py:93} INFO - |6  |Grace  |558   |
+[2026-03-14T02:56:06.708+0000] {subprocess.py:93} INFO - |7  |Nina   |112   |
+[2026-03-14T02:56:06.708+0000] {subprocess.py:93} INFO - |8  |Jack   |589   |
+[2026-03-14T02:56:06.709+0000] {subprocess.py:93} INFO - |9  |Bob    |323   |
+[2026-03-14T02:56:06.710+0000] {subprocess.py:93} INFO - |10 |Owen   |515   |
+[2026-03-14T02:56:06.711+0000] {subprocess.py:93} INFO - |11 |Ivy    |160   |
+[2026-03-14T02:56:06.711+0000] {subprocess.py:93} INFO - |12 |Alice  |406   |
+[2026-03-14T02:56:06.713+0000] {subprocess.py:93} INFO - |13 |Ivy    |505   |
+[2026-03-14T02:56:06.714+0000] {subprocess.py:93} INFO - |14 |Liam   |297   |
+[2026-03-14T02:56:06.714+0000] {subprocess.py:93} INFO - |15 |Nina   |431   |
+[2026-03-14T02:56:06.715+0000] {subprocess.py:93} INFO - |16 |Alice  |515   |
+[2026-03-14T02:56:06.716+0000] {subprocess.py:93} INFO - |17 |Frank  |512   |
+[2026-03-14T02:56:06.717+0000] {subprocess.py:93} INFO - |18 |David  |153   |
+[2026-03-14T02:56:06.718+0000] {subprocess.py:93} INFO - |19 |Karen  |267   |
+[2026-03-14T02:56:06.720+0000] {subprocess.py:93} INFO - |20 |Owen   |317   |
+[2026-03-14T02:56:06.721+0000] {subprocess.py:93} INFO - +---+-------+------+
+[2026-03-14T02:56:06.722+0000] {subprocess.py:93} INFO - only showing top 20 rows
+[2026-03-14T02:56:06.723+0000] {subprocess.py:93} INFO - 
+[2026-03-14T02:56:06.871+0000] {subprocess.py:93} INFO - === Processed Data Schema ===
+[2026-03-14T02:56:06.872+0000] {subprocess.py:93} INFO - root
+[2026-03-14T02:56:06.873+0000] {subprocess.py:93} INFO -  |-- id: integer (nullable = true)
+[2026-03-14T02:56:06.874+0000] {subprocess.py:93} INFO -  |-- name: string (nullable = false)
+[2026-03-14T02:56:06.875+0000] {subprocess.py:93} INFO -  |-- amount: integer (nullable = true)
+[2026-03-14T02:56:06.876+0000] {subprocess.py:93} INFO -  |-- processing_timestamp: timestamp (nullable = false)
+[2026-03-14T02:56:06.876+0000] {subprocess.py:93} INFO - 
+[2026-03-14T02:56:06.877+0000] {subprocess.py:93} INFO - === Sample Processed Data ===
+[2026-03-14T02:56:07.578+0000] {subprocess.py:93} INFO - +---+-------+------+--------------------------+
+[2026-03-14T02:56:07.579+0000] {subprocess.py:93} INFO - |id |name   |amount|processing_timestamp      |
+[2026-03-14T02:56:07.579+0000] {subprocess.py:93} INFO - +---+-------+------+--------------------------+
+[2026-03-14T02:56:07.580+0000] {subprocess.py:93} INFO - |7  |Nina   |112   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.581+0000] {subprocess.py:93} INFO - |4  |Alice  |362   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.582+0000] {subprocess.py:93} INFO - |2  |Charlie|343   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.583+0000] {subprocess.py:93} INFO - |24 |Eva    |267   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.584+0000] {subprocess.py:93} INFO - |25 |Mona   |461   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.584+0000] {subprocess.py:93} INFO - |1  |Alice  |209   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.585+0000] {subprocess.py:93} INFO - |23 |Grace  |112   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.586+0000] {subprocess.py:93} INFO - |12 |Alice  |406   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.587+0000] {subprocess.py:93} INFO - |9  |Bob    |323   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.588+0000] {subprocess.py:93} INFO - |15 |Nina   |431   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.589+0000] {subprocess.py:93} INFO - |3  |Charlie|359   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.589+0000] {subprocess.py:93} INFO - |22 |Bob    |416   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.590+0000] {subprocess.py:93} INFO - |10 |Owen   |515   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.591+0000] {subprocess.py:93} INFO - |20 |Owen   |317   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.592+0000] {subprocess.py:93} INFO - |11 |Ivy    |160   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.593+0000] {subprocess.py:93} INFO - |13 |Ivy    |505   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.594+0000] {subprocess.py:93} INFO - |21 |Frank  |141   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.594+0000] {subprocess.py:93} INFO - |18 |David  |153   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.595+0000] {subprocess.py:93} INFO - |17 |Frank  |512   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.596+0000] {subprocess.py:93} INFO - |8  |Jack   |589   |2026-03-14 02:56:06.893888|
+[2026-03-14T02:56:07.598+0000] {subprocess.py:93} INFO - +---+-------+------+--------------------------+
+[2026-03-14T02:56:07.599+0000] {subprocess.py:93} INFO - only showing top 20 rows
+[2026-03-14T02:56:07.600+0000] {subprocess.py:93} INFO - 
+[2026-03-14T02:56:12.163+0000] {subprocess.py:93} INFO - Wrote Parquet output to: /opt/data/output/processed_parquet/
+[2026-03-14T02:56:12.166+0000] {subprocess.py:93} INFO - Wrote CSV output to: /opt/data/output/processed_csv/
+[2026-03-14T02:56:12.168+0000] {subprocess.py:93} INFO - Wrote Clean CSV output to: /opt/data/clean_data_csv/
+[2026-03-14T02:56:14.997+0000] {subprocess.py:93} INFO - Source input files retained in /opt/data/input (archiving disabled).
+[2026-03-14T02:56:15.394+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-03-14T02:56:15.395+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-14T02:56:15.430+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=event_trigger_pipeline, task_id=run_spark_job, run_id=manual__2026-03-14T02:55:51.384631+00:00, execution_date=20260314T025551, start_date=20260314T025555, end_date=20260314T025615
+[2026-03-14T02:56:15.502+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-14T02:56:15.510+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-14T02:56:15.511+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

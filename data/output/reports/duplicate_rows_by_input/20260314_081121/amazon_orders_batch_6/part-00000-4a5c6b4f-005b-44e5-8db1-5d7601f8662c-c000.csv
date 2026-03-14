@@ -1,0 +1,19 @@
+source_file,order_id,product_id,order_date,customer_id,ship_date,ship_mode,customer_name,segment,country,city,state,postal_code,region,category,sub_category,product_name,sales,quantity,discount,profit
+amazon_orders_batch_6.csv,AMZ-ORD-0005013,PROD-00178,2026-01-12,CUST-00205,2026-01-13,Same Day,Neha Verma,Consumer,India,Chennai,Tamil Nadu,400019,South,Office,Stationery,Kindle Reader,267.52,4,0.16,10.7
+amazon_orders_batch_6.csv,AMZ-ORD-0005013,PROD-00178,2026-01-12,CUST-00205,2026-01-13,Same Day,Neha Verma,Consumer,India,Chennai,Tamil Nadu,400019,South,Office,Stationery,Kindle Reader,267.52,4,0.16,10.7
+amazon_orders_batch_6.csv,AMZ-ORD-0005026,PROD-00295,2026-01-25,CUST-00009,2026-01-26,Standard Class,Vihaan Das,Consumer,India,Jaipur,Rajasthan,400032,North,Fashion,Apparel,Smart Plug,415.04,2,0.32,8.3
+amazon_orders_batch_6.csv,AMZ-ORD-0005026,PROD-00295,2026-01-25,CUST-00009,2026-01-26,Standard Class,Vihaan Das,Consumer,India,Jaipur,Rajasthan,400032,North,Fashion,Apparel,Smart Plug,415.04,2,0.32,8.3
+amazon_orders_batch_6.csv,AMZ-ORD-0005039,PROD-00412,2026-02-07,CUST-00113,2026-02-08,Second Class,Meera Joshi,Consumer,India,Delhi,Delhi,400045,North,Electronics,Accessories,Wireless Mouse,552.39,5,0.12,44.19
+amazon_orders_batch_6.csv,AMZ-ORD-0005039,PROD-00412,2026-02-07,CUST-00113,2026-02-08,Second Class,Meera Joshi,Consumer,India,Delhi,Delhi,400045,North,Electronics,Accessories,Wireless Mouse,552.39,5,0.12,44.19
+amazon_orders_batch_6.csv,AMZ-ORD-0005052,PROD-00109,2026-01-10,CUST-00217,2026-01-11,First Class,Rohan Patel,Consumer,India,Pune,Maharashtra,400058,West,Beauty,Skincare,Bluetooth Earbuds,699.91,3,0.28,14.0
+amazon_orders_batch_6.csv,AMZ-ORD-0005052,PROD-00109,2026-01-10,CUST-00217,2026-01-11,First Class,Rohan Patel,Consumer,India,Pune,Maharashtra,400058,West,Beauty,Skincare,Bluetooth Earbuds,699.91,3,0.28,14.0
+amazon_orders_batch_6.csv,AMZ-ORD-0005065,PROD-00226,2026-01-23,CUST-00021,2026-01-24,Same Day,Anaya Rao,Consumer,India,Ahmedabad,Gujarat,400071,West,Home,Kitchen,Desk Lamp,837.26,1,0.08,100.47
+amazon_orders_batch_6.csv,AMZ-ORD-0005065,PROD-00226,2026-01-23,CUST-00021,2026-01-24,Same Day,Anaya Rao,Consumer,India,Ahmedabad,Gujarat,400071,West,Home,Kitchen,Desk Lamp,837.26,1,0.08,100.47
+amazon_orders_batch_6.csv,AMZ-ORD-0005078,PROD-00343,2026-02-05,CUST-00125,2026-02-06,Standard Class,Rahul Iyer,Consumer,India,Mumbai,Maharashtra,400084,West,Office,Stationery,Backpack,84.78,4,0.24,1.7
+amazon_orders_batch_6.csv,AMZ-ORD-0005078,PROD-00343,2026-02-05,CUST-00125,2026-02-06,Standard Class,Rahul Iyer,Consumer,India,Mumbai,Maharashtra,400084,West,Office,Stationery,Backpack,84.78,4,0.24,1.7
+amazon_orders_batch_6.csv,AMZ-ORD-0005091,PROD-00040,2026-01-08,CUST-00229,2026-01-09,Second Class,Priya Sharma,Consumer,India,Hyderabad,Telangana,400097,South,Fashion,Apparel,Water Bottle,222.13,2,0.04,35.54
+amazon_orders_batch_6.csv,AMZ-ORD-0005091,PROD-00040,2026-01-08,CUST-00229,2026-01-09,Second Class,Priya Sharma,Consumer,India,Hyderabad,Telangana,400097,South,Fashion,Apparel,Water Bottle,222.13,2,0.04,35.54
+amazon_orders_batch_6.csv,AMZ-ORD-0005104,PROD-00157,2026-01-21,CUST-00033,2026-01-22,First Class,Kabir Nair,Consumer,India,Kolkata,West Bengal,400110,East,Electronics,Accessories,Office Chair,369.65,5,0.2,7.39
+amazon_orders_batch_6.csv,AMZ-ORD-0005104,PROD-00157,2026-01-21,CUST-00033,2026-01-22,First Class,Kabir Nair,Consumer,India,Kolkata,West Bengal,400110,East,Electronics,Accessories,Office Chair,369.65,5,0.2,7.39
+amazon_orders_batch_6.csv,AMZ-ORD-0005117,PROD-00274,2026-02-03,CUST-00137,2026-02-04,Same Day,Isha Gupta,Consumer,India,Lucknow,Uttar Pradesh,400123,North,Beauty,Skincare,Monitor Stand,507.0,3,0.0,101.4
+amazon_orders_batch_6.csv,AMZ-ORD-0005117,PROD-00274,2026-02-03,CUST-00137,2026-02-04,Same Day,Isha Gupta,Consumer,India,Lucknow,Uttar Pradesh,400123,North,Beauty,Skincare,Monitor Stand,507.0,3,0.0,101.4
