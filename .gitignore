@@ -1,0 +1,5 @@
+# Runtime artifacts
+data/airflow/logs/
+data/output/
+data/archive/
+data/clean_data_csv/
