@@ -1,0 +1,2 @@
+order_id,order_date,ship_date,ship_mode,customer_id,customer_name,segment,country,city,state,postal_code,region,product_id,category,sub_category,product_name,sales,quantity,discount,profit,source_file,processing_timestamp
+3,2026-03-14,2026-03-16,Standard Class,CUST-3,Charlie,Consumer,India,DemoCity,DemoState,000000,Demo,PROD-3,General,General,Item-Charlie,350.0,1,0.0,0.0,simple_demo_3col.csv,2026-03-14T07:25:59.593Z

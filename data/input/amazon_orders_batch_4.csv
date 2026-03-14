@@ -1,0 +1,85 @@
+order_id,order_date,ship_date,ship_mode,customer_id,customer_name,segment,country,city,state,postal_code,region,product_id,category,sub_category,product_name,sales,quantity,discount,profit
+AMZ-ORD-0003001,2026-02-07,2026-02-09,Second Class,CUST-00007,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400005,North,PROD-00008,Electronics,Accessories,Desk Lamp,30.13,2,0.04,4.82
+AMZ-ORD-0003002,2026-02-08,2026-02-10,First Class,CUST-00013,Rohan Patel,Consumer,India,Mumbai,Maharashtra,400006,West,PROD-00015,Home,Kitchen,Echo Dot Speaker,40.26,3,0.08,4.83
+AMZ-ORD-0003003,2026-01-01,2026-01-03,Same Day,CUST-00019,Neha Verma,Consumer,India,Delhi,Delhi,400007,North,PROD-00022,Fashion,Apparel,Desk Lamp,50.39,1,0.12,4.03
+AMZ-ORD-0003004,2026-01-02,2026-01-04,Standard Class,CUST-00025,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400008,South,PROD-00029,Beauty,Skincare,Echo Dot Speaker,60.52,2,0.16,2.42
+AMZ-ORD-0003005,2026-01-03,2026-01-05,Second Class,CUST-00031,Anaya Rao,Consumer,India,Hyderabad,Telangana,400009,South,PROD-00036,Office,Stationery,Desk Lamp,70.65,3,0.2,1.41
+AMZ-ORD-0003006,2026-01-04,2026-01-06,First Class,CUST-00037,Vihaan Das,Consumer,India,Pune,Maharashtra,400010,West,PROD-00043,Electronics,Accessories,Echo Dot Speaker,80.78,1,0.24,1.62
+AMZ-ORD-0003007,2026-01-05,2026-01-07,Same Day,CUST-00043,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400011,South,PROD-00050,Home,Kitchen,Desk Lamp,90.91,2,0,18.18
+AMZ-ORD-0003008,2026-01-06,2026-01-08,Standard Class,CUST-00049,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400012,East,PROD-00057,Fashion,Apparel,Echo Dot Speaker,101.04,3,0.04,16.17
+AMZ-ORD-0003009,2026-01-07,2026-01-09,Second Class,CUST-00055,Meera Joshi,Consumer,India,Ahmedabad,Gujarat,400013,West,PROD-00064,Beauty,Skincare,Desk Lamp,101,1,0.08,12.12
+AMZ-ORD-0003010,2026-01-08,2026-01-10,First Class,CUST-00061,Aarav Singh,Consumer,India,Jaipur,Rajasthan,400014,North,PROD-00071,Office,Stationery,Echo Dot Speaker,111.13,2,0.12,8.89
+AMZ-ORD-0003011,2026-01-09,2026-01-11,Same Day,CUST-00067,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400015,North,PROD-00078,Electronics,Accessories,Desk Lamp,121.26,3,0.16,4.85
+AMZ-ORD-0003012,2026-01-10,2026-01-12,Standard Class,CUST-00073,Rohan Patel,Consumer,India,Mumbai,Maharashtra,400016,West,PROD-00085,Home,Kitchen,Echo Dot Speaker,131.39,1,0.2,2.63
+AMZ-ORD-0003013,2026-01-11,2026-01-13,Second Class,CUST-00079,Neha Verma,Consumer,India,Delhi,Delhi,400017,North,PROD-00092,Fashion,Apparel,Desk Lamp,141.52,2,0.24,2.83
+AMZ-ORD-0003014,2026-01-12,2026-01-14,First Class,CUST-00085,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400018,South,PROD-00099,Beauty,Skincare,Echo Dot Speaker,151.65,3,0,30.33
+AMZ-ORD-0003015,2026-01-13,2026-01-15,Same Day,CUST-00091,Anaya Rao,Consumer,India,Hyderabad,Telangana,400019,South,PROD-00106,Office,Stationery,Desk Lamp,161.78,1,0.04,25.88
+AMZ-ORD-0003016,2026-01-14,2026-01-16,Standard Class,CUST-00097,Vihaan Das,Consumer,India,Pune,Maharashtra,400020,West,PROD-00113,Electronics,Accessories,Echo Dot Speaker,171.91,2,0.08,20.63
+AMZ-ORD-0003017,2026-01-15,2026-01-17,Second Class,CUST-00103,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400021,South,PROD-00120,Home,Kitchen,Desk Lamp,182.04,3,0.12,14.56
+AMZ-ORD-0003017,2026-01-15,2026-01-17,Second Class,CUST-00103,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400021,South,PROD-00120,Home,Kitchen,Desk Lamp,182.04,3,0.12,14.56
+AMZ-ORD-0003018,2026-01-16,2026-01-18,First Class,CUST-00109,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400022,East,PROD-00127,Fashion,Apparel,Echo Dot Speaker,182,1,0.16,7.28
+AMZ-ORD-0003019,2026-01-17,2026-01-19,Same Day,CUST-00115,Meera Joshi,Consumer,India,Ahmedabad,Gujarat,400023,West,PROD-00134,Beauty,Skincare,Desk Lamp,192.13,2,0.2,3.84
+AMZ-ORD-0003020,2026-01-18,2026-01-20,Standard Class,CUST-00121,Aarav Singh,Consumer,India,Jaipur,Rajasthan,400024,North,PROD-00141,Office,Stationery,Echo Dot Speaker,202.26,3,0.24,4.05
+AMZ-ORD-0003021,2026-01-19,2026-01-21,Second Class,CUST-00127,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400025,North,PROD-00148,Electronics,Accessories,Desk Lamp,212.39,1,0,42.48
+AMZ-ORD-0003022,2026-01-20,2026-01-22,First Class,CUST-00133,Rohan Patel,Consumer,India,Mumbai,Maharashtra,400026,West,PROD-00155,Home,Kitchen,Echo Dot Speaker,222.52,2,0.04,35.6
+AMZ-ORD-0003023,2026-01-21,2026-01-23,Same Day,CUST-00139,Neha Verma,Consumer,India,Delhi,Delhi,400027,North,PROD-00162,Fashion,Apparel,Desk Lamp,232.65,-3,0.08,27.92
+AMZ-ORD-0003024,2026-01-22,2026-01-24,Standard Class,CUST-00145,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400028,South,PROD-00169,Beauty,Skincare,Echo Dot Speaker,242.78,1,0.12,19.42
+AMZ-ORD-0003025,2026-01-23,2026-01-25,Second Class,CUST-00151,Anaya Rao,Consumer,India,Hyderabad,Telangana,400029,South,PROD-00176,Office,Stationery,Desk Lamp,252.91,2,0.16,10.12
+AMZ-ORD-0003026,2026-01-24,2026-01-26,First Class,CUST-00157,Vihaan Das,Consumer,India,Pune,Maharashtra,400030,West,PROD-00183,Electronics,Accessories,Echo Dot Speaker,263.04,3,0.2,5.26
+AMZ-ORD-0003027,2026-01-25,2026-01-27,Same Day,CUST-00163,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400031,South,PROD-00190,Home,Kitchen,Desk Lamp,263,1,0.24,5.26
+AMZ-ORD-0003028,2026-01-26,2026-01-28,Standard Class,CUST-00169,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400032,East,PROD-00197,Fashion,Apparel,Echo Dot Speaker,273.13,2,0,54.63
+AMZ-ORD-0003029,2026-01-27,2026-01-29,Second Class,CUST-00175,Meera Joshi,Consumer,India,Ahmedabad,Gujarat,400033,West,PROD-00204,Beauty,Skincare,Desk Lamp,bad_sales,3,0.04,45.32
+AMZ-ORD-0003030,2026-01-28,2026-01-30,First Class,CUST-00181,Aarav Singh,Consumer,India,Jaipur,Rajasthan,400034,North,PROD-00211,Office,Stationery,Echo Dot Speaker,293.39,1,0.08,35.21
+AMZ-ORD-0003031,2026-01-29,2026-01-31,Same Day,CUST-00187,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400035,North,PROD-00218,Electronics,Accessories,Desk Lamp,303.52,2,0.12,24.28
+AMZ-ORD-0003032,2026-01-30,2026-02-01,Standard Class,CUST-00193,Rohan Patel,Consumer,India,Mumbai,Maharashtra,400036,West,PROD-00225,Home,Kitchen,Echo Dot Speaker,313.65,3,0.16,12.55
+AMZ-ORD-0003033,2026-01-31,2026-02-02,Second Class,CUST-00199,Neha Verma,Consumer,India,Delhi,Delhi,400037,North,PROD-00232,Fashion,Apparel,Desk Lamp,323.78,1,0.2,6.48
+AMZ-ORD-0003034,2026-02-01,2026-02-03,First Class,CUST-00205,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400038,South,PROD-00239,Beauty,Skincare,Echo Dot Speaker,333.91,2,0.24,6.68
+AMZ-ORD-0003034,2026-02-01,2026-02-03,First Class,CUST-00205,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400038,South,PROD-00239,Beauty,Skincare,Echo Dot Speaker,333.91,2,0.24,6.68
+AMZ-ORD-0003035,2026-02-02,2026-02-04,Same Day,,Anaya Rao,Consumer,India,Hyderabad,Telangana,400039,South,PROD-00246,Office,Stationery,Desk Lamp,344.04,3,0,68.81
+AMZ-ORD-0003036,2026-02-03,2026-02-05,Standard Class,CUST-00217,Vihaan Das,Consumer,India,Pune,Maharashtra,400040,West,PROD-00253,Electronics,Accessories,Echo Dot Speaker,344,1,0.04,55.04
+AMZ-ORD-0003037,2026-02-04,2026-02-06,Second Class,CUST-00223,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400041,South,PROD-00260,Home,Kitchen,Desk Lamp,354.13,2,0.08,42.5
+AMZ-ORD-0003038,2026-02-05,2026-02-07,First Class,CUST-00229,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400042,East,PROD-00267,Fashion,Apparel,Echo Dot Speaker,364.26,3,0.12,29.14
+,2026-02-06,2026-02-08,Same Day,CUST-00235,Meera Joshi,Consumer,India,Ahmedabad,Gujarat,400043,West,PROD-00274,Beauty,Skincare,Desk Lamp,374.39,1,0.16,14.98
+AMZ-ORD-0003040,2026-02-07,2026-02-09,Standard Class,CUST-00241,Aarav Singh,Consumer,India,Jaipur,Rajasthan,400044,North,PROD-00281,Office,Stationery,Echo Dot Speaker,384.52,2,0.2,7.69
+AMZ-ORD-0003041,2026-13-77,2026-02-10,Second Class,CUST-00247,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400045,North,PROD-00288,Electronics,Accessories,Desk Lamp,394.65,3,0.24,7.89
+AMZ-ORD-0003042,2026-01-01,2026-01-03,First Class,CUST-00253,Rohan Patel,Consumer,India,Mumbai,Maharashtra,400046,West,PROD-00295,Home,Kitchen,Echo Dot Speaker,404.78,1,0,80.96
+AMZ-ORD-0003043,2026-01-02,2026-01-04,Same Day,CUST-00259,Neha Verma,Consumer,India,Delhi,Delhi,400047,North,PROD-00302,Fashion,Apparel,Desk Lamp,414.91,2,0.04,66.39
+AMZ-ORD-0003044,2026-01-03,2026-01-05,Standard Class,CUST-00265,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400048,South,PROD-00309,Beauty,Skincare,Echo Dot Speaker,425.04,3,0.08,51
+AMZ-ORD-0003045,2026-01-04,2026-01-06,Second Class,CUST-00271,Anaya Rao,Consumer,India,Hyderabad,Telangana,400049,South,PROD-00316,Office,Stationery,Desk Lamp,425,1,0.12,34
+AMZ-ORD-0003046,2026-01-05,2026-01-07,First Class,CUST-00277,Vihaan Das,Consumer,India,Pune,Maharashtra,400050,West,PROD-00323,Electronics,Accessories,Echo Dot Speaker,435.13,-3,0.16,17.41
+AMZ-ORD-0003047,2026-01-06,2026-01-08,Same Day,CUST-00283,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400051,South,PROD-00330,Home,Kitchen,Desk Lamp,445.26,3,1.45,8.91
+AMZ-ORD-0003048,2026-01-07,2026-01-09,Standard Class,CUST-00289,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400052,East,PROD-00337,Fashion,Apparel,Echo Dot Speaker,455.39,1,0.24,9.11
+AMZ-ORD-0003049,2026-01-08,2026-01-10,Second Class,CUST-00295,Meera Joshi,Consumer,India,Ahmedabad,Gujarat,400053,West,PROD-00344,Beauty,Skincare,Desk Lamp,465.52,2,0,93.1
+AMZ-ORD-0003050,2026-01-09,2026-01-11,First Class,CUST-00001,Aarav Singh,Consumer,India,Jaipur,Rajasthan,400054,North,PROD-00351,Office,Stationery,Echo Dot Speaker,475.65,3,0.04,76.1
+AMZ-ORD-0003051,2026-01-10,2026-01-12,Same Day,CUST-00007,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400055,North,PROD-00358,Electronics,Accessories,Desk Lamp,485.78,1,0.08,58.29
+AMZ-ORD-0003051,2026-01-10,2026-01-12,Same Day,CUST-00007,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400055,North,PROD-00358,Electronics,Accessories,Desk Lamp,485.78,1,0.08,58.29
+AMZ-ORD-0003052,2026-01-11,2026-01-13,Standard Class,CUST-00013,Rohan Patel,Consumer,India,Mumbai,Maharashtra,400056,West,PROD-00365,Home,Kitchen,Echo Dot Speaker,495.91,2,0.12,39.67
+AMZ-ORD-0003053,2026-01-12,2026-01-14,Second Class,CUST-00019,Neha Verma,Consumer,India,Delhi,Delhi,400057,North,PROD-00372,Fashion,Apparel,Desk Lamp,506.04,3,0.16,20.24
+AMZ-ORD-0003054,2026-01-13,2026-01-15,First Class,CUST-00025,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400058,South,PROD-00379,Beauty,Skincare,Echo Dot Speaker,506,1,0.2,10.12
+AMZ-ORD-0003055,2026-01-14,2026-01-16,Same Day,CUST-00031,Anaya Rao,Consumer,India,Hyderabad,Telangana,400059,South,PROD-00386,Office,Stationery,Desk Lamp,516.13,2,0.24,10.32
+AMZ-ORD-0003056,2026-01-15,2026-01-17,Standard Class,CUST-00037,Vihaan Das,Consumer,India,Pune,Maharashtra,400060,West,PROD-00393,Electronics,Accessories,Echo Dot Speaker,526.26,3,0,105.25
+AMZ-ORD-0003057,2026-01-16,2026-01-18,Second Class,CUST-00043,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400061,South,PROD-00400,Home,Kitchen,Desk Lamp,536.39,1,0.04,85.82
+AMZ-ORD-0003058,2026-01-17,2026-01-19,First Class,CUST-00049,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400062,East,PROD-00407,Fashion,Apparel,Echo Dot Speaker,bad_sales,2,0.08,65.58
+AMZ-ORD-0003059,2026-01-18,2026-01-20,Same Day,CUST-00055,Meera Joshi,Consumer,India,Ahmedabad,Gujarat,400063,West,PROD-00414,Beauty,Skincare,Desk Lamp,556.65,3,0.12,44.53
+AMZ-ORD-0003060,2026-01-19,2026-01-21,Standard Class,CUST-00061,Aarav Singh,Consumer,India,Jaipur,Rajasthan,400064,North,PROD-00001,Office,Stationery,Echo Dot Speaker,566.78,1,0.16,22.67
+AMZ-ORD-0003061,2026-01-20,2026-01-22,Second Class,CUST-00067,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400065,North,PROD-00008,Electronics,Accessories,Desk Lamp,576.91,2,0.2,11.54
+AMZ-ORD-0003062,2026-01-21,2026-01-23,First Class,CUST-00073,Rohan Patel,Consumer,India,Mumbai,Maharashtra,400066,West,PROD-00015,Home,Kitchen,Echo Dot Speaker,587.04,3,0.24,11.74
+AMZ-ORD-0003063,2026-01-22,2026-01-24,Same Day,CUST-00079,Neha Verma,Consumer,India,Delhi,Delhi,400067,North,PROD-00022,Fashion,Apparel,Desk Lamp,587,1,0,117.4
+AMZ-ORD-0003064,2026-01-23,2026-01-25,Standard Class,CUST-00085,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400068,South,PROD-00029,Beauty,Skincare,Echo Dot Speaker,597.13,2,0.04,95.54
+AMZ-ORD-0003065,2026-01-24,2026-01-26,Second Class,CUST-00091,Anaya Rao,Consumer,India,Hyderabad,Telangana,400069,South,PROD-00036,Office,Stationery,Desk Lamp,607.26,3,0.08,72.87
+AMZ-ORD-0003066,2026-01-25,2026-01-27,First Class,CUST-00097,Vihaan Das,Consumer,India,Pune,Maharashtra,400070,West,PROD-00043,Electronics,Accessories,Echo Dot Speaker,617.39,1,0.12,49.39
+AMZ-ORD-0003067,2026-01-26,2026-01-28,Same Day,CUST-00103,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400071,South,PROD-00050,Home,Kitchen,Desk Lamp,627.52,2,0.16,25.1
+AMZ-ORD-0003068,2026-01-27,2026-01-29,Standard Class,CUST-00109,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400072,East,PROD-00057,Fashion,Apparel,Echo Dot Speaker,637.65,3,0.2,12.75
+AMZ-ORD-0003068,2026-01-27,2026-01-29,Standard Class,CUST-00109,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400072,East,PROD-00057,Fashion,Apparel,Echo Dot Speaker,637.65,3,0.2,12.75
+AMZ-ORD-0003069,2026-01-28,2026-01-30,Second Class,CUST-00115,Meera Joshi,Consumer,India,Ahmedabad,Gujarat,400073,West,PROD-00064,Beauty,Skincare,Desk Lamp,647.78,-3,0.24,12.96
+AMZ-ORD-0003070,2026-01-29,2026-01-31,First Class,,Aarav Singh,Consumer,India,Jaipur,Rajasthan,400074,North,PROD-00071,Office,Stationery,Echo Dot Speaker,657.91,2,0,131.58
+AMZ-ORD-0003071,2026-01-30,2026-02-01,Same Day,CUST-00127,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400075,North,PROD-00078,Electronics,Accessories,Desk Lamp,668.04,3,0.04,106.89
+AMZ-ORD-0003072,2026-01-31,2026-02-02,Standard Class,CUST-00133,Rohan Patel,Consumer,India,Mumbai,Maharashtra,400076,West,PROD-00085,Home,Kitchen,Echo Dot Speaker,668,1,0.08,80.16
+AMZ-ORD-0003073,2026-02-01,2026-02-03,Second Class,CUST-00139,Neha Verma,Consumer,India,Delhi,Delhi,400077,North,PROD-00092,Fashion,Apparel,Desk Lamp,678.13,2,0.12,54.25
+AMZ-ORD-0003074,2026-02-02,2026-02-04,First Class,CUST-00145,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400078,South,PROD-00099,Beauty,Skincare,Echo Dot Speaker,688.26,3,0.16,27.53
+AMZ-ORD-0003075,2026-02-03,2026-02-05,Same Day,CUST-00151,Anaya Rao,Consumer,India,Hyderabad,Telangana,400079,South,PROD-00106,Office,Stationery,Desk Lamp,698.39,1,0.2,13.97
+AMZ-ORD-0003076,2026-02-04,2026-02-06,Standard Class,CUST-00157,Vihaan Das,Consumer,India,Pune,Maharashtra,400080,West,PROD-00113,Electronics,Accessories,Echo Dot Speaker,708.52,2,0.24,14.17
+AMZ-ORD-0003077,2026-02-05,2026-02-07,Second Class,CUST-00163,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400081,South,PROD-00120,Home,Kitchen,Desk Lamp,718.65,3,0,143.73
+,2026-02-06,2026-02-08,First Class,CUST-00169,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400082,East,PROD-00127,Fashion,Apparel,Echo Dot Speaker,728.78,1,0.04,116.6
+AMZ-ORD-0003079,2026-02-07,2026-02-09,Same Day,CUST-00175,Meera Joshi,Consumer,India,Ahmedabad,Gujarat,400083,West,PROD-00134,Beauty,Skincare,Desk Lamp,738.91,2,0.08,88.67
+AMZ-ORD-0003080,2026-02-08,2026-02-10,Standard Class,CUST-00181,Aarav Singh,Consumer,India,Jaipur,Rajasthan,400084,North,PROD-00141,Office,Stationery,Echo Dot Speaker,749.04,3,0.12,59.92

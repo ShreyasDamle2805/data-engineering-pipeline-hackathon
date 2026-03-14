@@ -1,0 +1,7 @@
+order_id,order_date,ship_date,ship_mode,customer_id,customer_name,segment,country,city,state,postal_code,region,product_id,category,sub_category,product_name,sales,quantity,discount,profit,source_file,processing_timestamp
+1,2026-03-14,2026-03-16,Standard Class,CUST-1,Alice,Consumer,India,DemoCity,DemoState,000000,Demo,PROD-1,General,General,Item-Alice,120.0,1,0.0,0.0,simple_demo_3col.csv,2026-03-14T07:28:04.846Z
+2,2026-03-14,2026-03-16,Standard Class,CUST-2,Bob,Consumer,India,DemoCity,DemoState,000000,Demo,PROD-2,General,General,Item-Bob,200.0,1,0.0,0.0,simple_demo_3col.csv,2026-03-14T07:28:04.846Z
+3,2026-03-14,2026-03-16,Standard Class,CUST-3,Charlie,Consumer,India,DemoCity,DemoState,000000,Demo,PROD-3,General,General,Item-Charlie,350.0,1,0.0,0.0,simple_demo_3col.csv,2026-03-14T07:28:04.846Z
+5,2026-03-14,2026-03-16,Standard Class,CUST-5,Eva,Consumer,India,DemoCity,DemoState,000000,Demo,PROD-5,General,General,Item-Eva,0.0,1,0.0,0.0,simple_demo_3col.csv,2026-03-14T07:28:04.846Z
+7,2026-03-14,2026-03-16,Standard Class,CUST-7,Grace,Consumer,India,DemoCity,DemoState,000000,Demo,PROD-7,General,General,Item-Grace,410.0,1,0.0,0.0,simple_demo_3col.csv,2026-03-14T07:28:04.846Z
+8,2026-03-14,2026-03-16,Standard Class,CUST-8,Harry,Consumer,India,DemoCity,DemoState,000000,Demo,PROD-8,General,General,Item-Harry,260.0,1,0.0,0.0,simple_demo_3col.csv,2026-03-14T07:28:04.846Z

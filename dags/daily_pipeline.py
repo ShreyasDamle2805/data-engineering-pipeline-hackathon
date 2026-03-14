@@ -35,7 +35,7 @@ with DAG(
     # Submit the Spark job that performs the data processing
     run_spark_job = BashOperator(
         task_id="run_spark_job",
-        bash_command="spark-submit /opt/airflow/spark_jobs/process_data.py",
+        bash_command="spark-submit --master local[*] /opt/airflow/spark_jobs/process_data.py",
     )
 
     run_spark_job

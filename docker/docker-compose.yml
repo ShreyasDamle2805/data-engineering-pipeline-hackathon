@@ -14,9 +14,15 @@ services:
   spark:
     image: apache/spark:3.5.1
     container_name: de_spark
+    user: "0:0"
     environment:
       # Run Spark in "master" mode so you have a stable endpoint for clients.
       - SPARK_MODE=master
+    command: >
+      /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
+      --host 0.0.0.0
+      --port 7077
+      --webui-port 8080
     volumes:
       # Spark job code (mounted read-only to avoid accidental edits in container)
       - ../spark_jobs:/opt/spark_jobs:ro
@@ -29,10 +35,31 @@ services:
       - "7077:7077"
 
   # -----------------------------
+  # Spark worker
+  # -----------------------------
+  spark-worker:
+    image: apache/spark:3.5.1
+    container_name: de_spark_worker
+    user: "0:0"
+    depends_on:
+      - spark
+    command: >
+      /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker
+      spark://spark:7077
+      --webui-port 8081
+    volumes:
+      - ../spark_jobs:/opt/spark_jobs:ro
+      - ../data:/opt/data
+    ports:
+      - "8082:8081"
+
+  # -----------------------------
   # Airflow (all-in-one container)
   # -----------------------------
   airflow:
-    image: apache/airflow:2.9.3
+    build:
+      context: ./airflow
+      dockerfile: Dockerfile
     container_name: de_airflow
     depends_on:
       # Airflow DAGs may call Spark; ensure Spark is up first.
@@ -44,12 +71,16 @@ services:
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
       # Avoid writing example DAGs into the UI.
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      # FileSensor/FS connection compatibility.
+      - AIRFLOW_CONN_FS_DEFAULT=fs:///
       # Create an admin user on startup (airflow/airflow).
       - _AIRFLOW_WWW_USER_USERNAME=airflow
       - _AIRFLOW_WWW_USER_PASSWORD=airflow
     volumes:
       # Airflow DAG definitions (mounted read-only)
       - ../dags:/opt/airflow/dags:ro
+      # Spark job source code used by spark-submit in Airflow container.
+      - ../spark_jobs:/opt/airflow/spark_jobs:ro
       # Shared data (input/output)
       - ../data:/opt/data
     ports:
@@ -57,14 +88,10 @@ services:
       - "8081:8080"
     command: >
       bash -c "
+      airflow db init &&
       airflow db migrate &&
-      airflow users create
-        --role Admin
-        --username \"$${_AIRFLOW_WWW_USER_USERNAME}\"
-        --password \"$${_AIRFLOW_WWW_USER_PASSWORD}\"
-        --firstname Admin
-        --lastname User
-        --email admin@example.com || true &&
+      airflow users create --role Admin --username \"$${_AIRFLOW_WWW_USER_USERNAME}\" --password \"$${_AIRFLOW_WWW_USER_PASSWORD}\" --firstname Admin --lastname User --email admin@example.com || true &&
+      rm -f /opt/airflow/airflow-webserver.pid &&
       airflow webserver --port 8080 &
       airflow scheduler
       "

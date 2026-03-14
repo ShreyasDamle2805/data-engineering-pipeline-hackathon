@@ -1,0 +1,45 @@
+source_file,order_id,product_id,order_date,customer_id,ship_date,ship_mode,customer_name,segment,country,city,state,postal_code,region,category,sub_category,product_name,sales,quantity,discount,profit
+amazon_orders_batch_1.csv,AMZ-ORD-0000056,PROD-00225,2026-01-21,CUST-00169,2026-01-23,Second Class,Vihaan Das,Consumer,India,Jaipur,Rajasthan,400057,North,Fashion,Apparel,Smart Plug,358.26,1,0.0,71.65
+amazon_orders_batch_1.csv,AMZ-ORD-0000035,PROD-00141,2026-02-05,CUST-00106,2026-02-07,Standard Class,Anaya Rao,Consumer,India,Ahmedabad,Gujarat,400036,West,Home,Kitchen,Echo Dot Speaker,239.04,4,0.12,19.12
+amazon_orders_batch_1.csv,AMZ-ORD-0000077,PROD-00309,2026-01-06,CUST-00232,2026-01-08,First Class,Isha Gupta,Consumer,India,Lucknow,Uttar Pradesh,400078,North,Beauty,Skincare,Bluetooth Earbuds,487.65,2,0.04,78.02
+amazon_orders_batch_1.csv,AMZ-ORD-0000028,PROD-00113,2026-01-29,CUST-00085,2026-01-31,Second Class,Rahul Iyer,Consumer,India,Mumbai,Maharashtra,400029,West,Office,Stationery,Backpack,189.13,1,0.0,37.83
+amazon_orders_batch_2.csv,AMZ-ORD-0001011,PROD-00016,2026-01-13,CUST-00145,2026-01-16,Second Class,Priya Sharma,Consumer,India,Chennai,Tamil Nadu,400013,South,Beauty,Skincare,Wireless Mouse,799.26,2,0.04,127.88
+amazon_orders_batch_2.csv,AMZ-ORD-0001132,PROD-00201,2026-01-23,CUST-00029,2026-01-26,First Class,Rohan Patel,Consumer,India,Kolkata,West Bengal,400134,East,Office,Stationery,Backpack,750.78,3,0.08,90.09
+amazon_orders_batch_2.csv,AMZ-ORD-0001088,PROD-00401,2026-01-16,CUST-00153,2026-01-19,First Class,Rahul Iyer,Consumer,India,Bengaluru,Karnataka,400090,South,Electronics,Accessories,Bluetooth Earbuds,443.91,4,0.12,35.51
+amazon_orders_batch_2.csv,AMZ-ORD-0001077,PROD-00346,2026-01-05,CUST-00109,2026-01-08,Same Day,Isha Gupta,Consumer,India,Delhi,Delhi,400079,North,Office,Stationery,Kindle Reader,364.65,3,0.08,43.76
+amazon_orders_batch_2.csv,AMZ-ORD-0001121,PROD-00146,2026-01-12,CUST-00285,2026-01-15,Same Day,Priya Sharma,Consumer,India,Chennai,Tamil Nadu,400123,South,Beauty,Skincare,Wireless Mouse,671.52,2,0.04,107.44
+amazon_orders_batch_2.csv,AMZ-ORD-0001110,PROD-00091,2026-01-01,CUST-00241,2026-01-04,Standard Class,Aarav Singh,Consumer,India,Pune,Maharashtra,400112,West,Fashion,Apparel,Echo Dot Speaker,592.26,1,0.0,118.45
+amazon_orders_batch_2.csv,AMZ-ORD-0001143,PROD-00256,2026-02-03,CUST-00073,2026-02-06,Second Class,Neha Verma,Consumer,India,Ahmedabad,Gujarat,400145,West,Electronics,Accessories,Monitor Stand,830.04,4,0.12,66.4
+amazon_orders_batch_3.csv,AMZ-ORD-0002015,PROD-00331,2026-01-02,CUST-00176,2026-01-03,First Class,Anaya Rao,Consumer,India,Delhi,Delhi,400018,North,Beauty,Skincare,Echo Dot Speaker,846.78,6,0.12,67.74
+amazon_orders_batch_3.csv,AMZ-ORD-0002020,PROD-00361,2026-01-07,CUST-00201,2026-01-08,Same Day,Aarav Singh,Consumer,India,Kolkata,West Bengal,400023,East,Beauty,Skincare,Echo Dot Speaker,882.26,5,0.08,105.87
+amazon_orders_batch_3.csv,AMZ-ORD-0002075,PROD-00271,2026-01-24,CUST-00176,2026-01-25,First Class,Anaya Rao,Consumer,India,Delhi,Delhi,400078,North,Beauty,Skincare,Echo Dot Speaker,423.39,6,0.12,33.87
+amazon_orders_batch_3.csv,AMZ-ORD-0002195,PROD-00151,2026-01-30,CUST-00176,2026-01-31,First Class,Anaya Rao,Consumer,India,Delhi,Delhi,400198,North,Beauty,Skincare,Echo Dot Speaker,486.78,6,0.12,38.94
+amazon_orders_batch_3.csv,AMZ-ORD-0002010,PROD-00301,2026-02-04,CUST-00151,2026-02-05,Second Class,Aarav Singh,Consumer,India,Kolkata,West Bengal,400013,East,Beauty,Skincare,Echo Dot Speaker,801.13,1,0.16,32.05
+amazon_orders_batch_3.csv,AMZ-ORD-0002100,PROD-00001,2026-01-11,CUST-00001,2026-01-12,Same Day,Aarav Singh,Consumer,India,Kolkata,West Bengal,400103,East,Beauty,Skincare,Echo Dot Speaker,621.13,1,0.16,24.85
+amazon_orders_batch_3.csv,AMZ-ORD-0002065,PROD-00211,2026-01-14,CUST-00126,2026-01-15,Standard Class,Anaya Rao,Consumer,India,Delhi,Delhi,400068,North,Beauty,Skincare,Echo Dot Speaker,342.26,2,0.2,6.85
+amazon_orders_batch_3.csv,AMZ-ORD-0002085,PROD-00331,2026-02-03,CUST-00226,2026-02-04,Standard Class,Anaya Rao,Consumer,India,Delhi,Delhi,400088,North,Beauty,Skincare,Echo Dot Speaker,504.52,4,0.04,80.72
+amazon_orders_batch_3.csv,AMZ-ORD-0002185,PROD-00091,2026-01-20,CUST-00126,2026-01-21,Standard Class,Anaya Rao,Consumer,India,Delhi,Delhi,400188,North,Beauty,Skincare,Echo Dot Speaker,405.65,2,0.2,8.11
+amazon_orders_batch_3.csv,AMZ-ORD-0002125,PROD-00151,2026-02-05,CUST-00126,2026-02-06,Standard Class,Anaya Rao,Consumer,India,Delhi,Delhi,400128,North,Beauty,Skincare,Echo Dot Speaker,829.04,2,0.2,16.58
+amazon_orders_batch_3.csv,AMZ-ORD-0002050,PROD-00121,2026-02-06,CUST-00051,2026-02-07,Second Class,Aarav Singh,Consumer,India,Kolkata,West Bengal,400053,East,Beauty,Skincare,Echo Dot Speaker,225.65,5,0.08,27.08
+amazon_orders_batch_3.csv,AMZ-ORD-0002045,PROD-00091,2026-02-01,CUST-00026,2026-02-02,Standard Class,Anaya Rao,Consumer,India,Delhi,Delhi,400048,North,Beauty,Skincare,Echo Dot Speaker,180.0,6,0.12,14.4
+amazon_orders_batch_3.csv,AMZ-ORD-0002035,PROD-00031,2026-01-22,CUST-00276,2026-01-23,First Class,Anaya Rao,Consumer,India,Delhi,Delhi,400038,North,Beauty,Skincare,Echo Dot Speaker,109.04,2,0.2,2.18
+amazon_orders_batch_3.csv,AMZ-ORD-0002145,PROD-00271,2026-01-18,CUST-00226,2026-01-19,Standard Class,Anaya Rao,Consumer,India,Delhi,Delhi,400148,North,Beauty,Skincare,Echo Dot Speaker,81.13,4,0.04,12.98
+amazon_orders_batch_3.csv,AMZ-ORD-0002105,PROD-00031,2026-01-16,CUST-00026,2026-01-17,Standard Class,Anaya Rao,Consumer,India,Delhi,Delhi,400108,North,Beauty,Skincare,Echo Dot Speaker,666.78,6,0.12,53.34
+amazon_orders_batch_4.csv,AMZ-ORD-0003068,PROD-00057,2026-01-27,CUST-00109,2026-01-29,Standard Class,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400072,East,Fashion,Apparel,Echo Dot Speaker,637.65,3,0.2,12.75
+amazon_orders_batch_4.csv,AMZ-ORD-0003051,PROD-00358,2026-01-10,CUST-00007,2026-01-12,Same Day,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400055,North,Electronics,Accessories,Desk Lamp,485.78,1,0.08,58.29
+amazon_orders_batch_5.csv,AMZ-ORD-0004018,PROD-00225,2026-01-19,CUST-00227,2026-01-22,Same Day,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400023,North,Beauty,Skincare,Office Chair,600.0,3,0.08,72.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004108,PROD-00105,2026-01-29,CUST-00257,2026-02-01,Second Class,Rahul Iyer,Consumer,India,Jaipur,Rajasthan,400113,North,Beauty,Skincare,Office Chair,600.0,1,0.16,24.0
+amazon_orders_batch_5.csv,AMZ-ORD-0004054,PROD-00093,2026-01-15,CUST-00179,2026-01-18,Same Day,Kabir Nair,Consumer,India,Pune,Maharashtra,400059,West,Office,Stationery,Bluetooth Earbuds,60.0,3,0.24,1.2
+amazon_orders_batch_5.csv,AMZ-ORD-0004081,PROD-00309,2026-01-02,CUST-00068,2026-01-05,First Class,Priya Sharma,Consumer,India,Delhi,Delhi,400086,North,Home,Kitchen,Backpack,330.0,2,0.04,52.8
+amazon_orders_batch_5.csv,AMZ-ORD-0004027,PROD-00297,2026-01-28,CUST-00290,2026-01-31,Standard Class,Isha Gupta,Consumer,India,Ahmedabad,Gujarat,400032,West,Fashion,Apparel,Smart Plug,690.0,4,0.12,55.2
+amazon_orders_batch_5.csv,AMZ-ORD-0004126,PROD-00249,2026-01-07,CUST-00083,2026-01-10,Same Day,Vihaan Das,Consumer,India,Kolkata,West Bengal,400131,East,Home,Kitchen,Backpack,780.0,3,0.24,15.6
+amazon_orders_batch_6.csv,AMZ-ORD-0005117,PROD-00274,2026-02-03,CUST-00137,2026-02-04,Same Day,Isha Gupta,Consumer,India,Lucknow,Uttar Pradesh,400123,North,Beauty,Skincare,Monitor Stand,507.0,3,0.0,101.4
+amazon_orders_batch_6.csv,AMZ-ORD-0005065,PROD-00226,2026-01-23,CUST-00021,2026-01-24,Same Day,Anaya Rao,Consumer,India,Ahmedabad,Gujarat,400071,West,Home,Kitchen,Desk Lamp,837.26,1,0.08,100.47
+amazon_orders_batch_6.csv,AMZ-ORD-0005013,PROD-00178,2026-01-12,CUST-00205,2026-01-13,Same Day,Neha Verma,Consumer,India,Chennai,Tamil Nadu,400019,South,Office,Stationery,Kindle Reader,267.52,4,0.16,10.7
+amazon_orders_batch_6.csv,AMZ-ORD-0005039,PROD-00412,2026-02-07,CUST-00113,2026-02-08,Second Class,Meera Joshi,Consumer,India,Delhi,Delhi,400045,North,Electronics,Accessories,Wireless Mouse,552.39,5,0.12,44.19
+simple_demo_3col.csv,8,PROD-8,2026-03-14,CUST-8,2026-03-16,Standard Class,Harry,Consumer,India,DemoCity,DemoState,000000,Demo,General,General,Item-Harry,260.0,1,0.0,0.0
+simple_demo_3col.csv,8,PROD-8,2026-03-14,CUST-8,2026-03-16,Standard Class,Harry,Consumer,India,DemoCity,DemoState,000000,Demo,General,General,Item-Harry,260.0,1,0.0,0.0
+simple_demo_3col.csv,8,PROD-8,2026-03-14,CUST-8,2026-03-16,Standard Class,Harry,Consumer,India,DemoCity,DemoState,000000,Demo,General,General,Item-Harry,260.0,1,0.0,0.0
+simple_demo_3col.csv,8,PROD-8,2026-03-14,CUST-8,2026-03-16,Standard Class,Harry,Consumer,India,DemoCity,DemoState,000000,Demo,General,General,Item-Harry,260.0,1,0.0,0.0
+simple_demo_3col.csv,8,PROD-8,2026-03-14,CUST-8,2026-03-16,Standard Class,Harry,Consumer,India,DemoCity,DemoState,000000,Demo,General,General,Item-Harry,260.0,1,0.0,0.0
+simple_demo_orders copy.csv,SIMP-003,PROD-S03,2026-03-02,CUST-S03,2026-03-05,First Class,Neha,Corporate,India,Delhi,Delhi,110001,North,Fashion,Apparel,T-Shirt,999.0,3,0.2,150.0

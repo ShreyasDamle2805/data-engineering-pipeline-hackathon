@@ -1,0 +1,132 @@
+{
+  "ad_hoc_insert_test.csv": {
+    "mtime": 1773463551.0639167,
+    "ctime": 1773475354.268996,
+    "size": 28
+  },
+  "amazon_orders_batch_1 copy 2.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773474509.368298,
+    "size": 18517
+  },
+  "amazon_orders_batch_1 copy 3.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773474757.0821474,
+    "size": 18517
+  },
+  "amazon_orders_batch_1 copy 4.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773475131.762956,
+    "size": 18517
+  },
+  "amazon_orders_batch_1 copy 5.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773476236.753943,
+    "size": 18517
+  },
+  "amazon_orders_batch_1 copy 6.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773476239.40249,
+    "size": 18517
+  },
+  "amazon_orders_batch_1 copy 7.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773476242.7148855,
+    "size": 18517
+  },
+  "amazon_orders_batch_1 copy 8.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773476380.6686091,
+    "size": 18517
+  },
+  "amazon_orders_batch_1 copy.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773474509.3773816,
+    "size": 18517
+  },
+  "amazon_orders_batch_1.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773475290.733899,
+    "size": 18517
+  },
+  "amazon_orders_batch_2.csv": {
+    "mtime": 1773464437.5118477,
+    "ctime": 1773473560.6146355,
+    "size": 28639
+  },
+  "amazon_orders_batch_3.csv": {
+    "mtime": 1773464437.5450714,
+    "ctime": 1773473560.6172128,
+    "size": 48932
+  },
+  "amazon_orders_batch_4.csv": {
+    "mtime": 1773464437.5566819,
+    "ctime": 1773475360.5471363,
+    "size": 15303
+  },
+  "amazon_orders_batch_5.csv": {
+    "mtime": 1773464437.58716,
+    "ctime": 1773475361.0082347,
+    "size": 33087
+  },
+  "amazon_orders_batch_6.csv": {
+    "mtime": 1773464437.6024587,
+    "ctime": 1773475914.139999,
+    "size": 24266
+  },
+  "live_proof_20260314_130703.csv": {
+    "mtime": 1773468184.5058374,
+    "ctime": 1773473825.4998317,
+    "size": 1767
+  },
+  "new_event_20260314_130051.csv": {
+    "mtime": 1773468184.5058374,
+    "ctime": 1773473453.551595,
+    "size": 1767
+  },
+  "new_file_guarantee_20260314_133130.csv": {
+    "mtime": 1773464437.4826832,
+    "ctime": 1773475322.9038317,
+    "size": 18517
+  },
+  "post_restart_20260314_131450 copy.csv": {
+    "mtime": 1773468184.5058374,
+    "ctime": 1773475204.3614788,
+    "size": 1767
+  },
+  "post_restart_20260314_131450.csv": {
+    "mtime": 1773468184.5058374,
+    "ctime": 1773474293.3661177,
+    "size": 1767
+  },
+  "simple_demo_3col.csv": {
+    "mtime": 1773469670.4287317,
+    "ctime": 1773475917.6832461,
+    "size": 371
+  },
+  "simple_demo_orders copy 2.csv": {
+    "mtime": 1773468184.5058374,
+    "ctime": 1773473619.4097855,
+    "size": 1767
+  },
+  "simple_demo_orders copy 3.csv": {
+    "mtime": 1773468184.5058374,
+    "ctime": 1773473683.3573706,
+    "size": 1767
+  },
+  "simple_demo_orders copy 4.csv": {
+    "mtime": 1773474017.2340255,
+    "ctime": 1773474018.9176447,
+    "size": 1769
+  },
+  "simple_demo_orders copy.csv": {
+    "mtime": 1773468184.5058374,
+    "ctime": 1773475477.728332,
+    "size": 1767
+  },
+  "simple_demo_orders.csv": {
+    "mtime": 1773468184.5058374,
+    "ctime": 1773475475.2118986,
+    "size": 1767
+  }
+}

@@ -1,0 +1,23 @@
+[2026-03-13T17:38:25.254+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-13T17:38:25.281+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: event_trigger_pipeline.wait_for_input manual__2026-03-13T17:37:37.333334+00:00 [queued]>
+[2026-03-13T17:38:25.286+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: event_trigger_pipeline.wait_for_input manual__2026-03-13T17:37:37.333334+00:00 [queued]>
+[2026-03-13T17:38:25.287+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-03-13T17:38:25.316+0000] {taskinstance.py:2330} INFO - Executing <Task(FileSensor): wait_for_input> on 2026-03-13 17:37:37.333334+00:00
+[2026-03-13T17:38:25.323+0000] {standard_task_runner.py:64} INFO - Started process 5918 to run task
+[2026-03-13T17:38:25.326+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'event_trigger_pipeline', 'wait_for_input', 'manual__2026-03-13T17:37:37.333334+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/event_trigger_pipeline.py', '--cfg-path', '/tmp/tmpf9u59vgs']
+[2026-03-13T17:38:25.328+0000] {standard_task_runner.py:91} INFO - Job 12: Subtask wait_for_input
+[2026-03-13T17:38:25.397+0000] {task_command.py:426} INFO - Running <TaskInstance: event_trigger_pipeline.wait_for_input manual__2026-03-13T17:37:37.333334+00:00 [running]> on host 670d40c6e2a9
+[2026-03-13T17:38:25.480+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='event_trigger_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_input' AIRFLOW_CTX_EXECUTION_DATE='2026-03-13T17:37:37.333334+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-13T17:37:37.333334+00:00'
+[2026-03-13T17:38:25.481+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-13T17:38:25.501+0000] {baseoperator.py:400} WARNING - FileSensor.execute cannot be called outside TaskInstance!
+[2026-03-13T17:38:25.503+0000] {base.py:84} INFO - Using connection ID 'fs_default' for task execution.
+[2026-03-13T17:38:25.504+0000] {filesystem.py:85} INFO - Poking for file /opt/data/input/sample.csv
+[2026-03-13T17:38:25.516+0000] {filesystem.py:89} INFO - Found File /opt/data/input/sample.csv last modified: 20260313173759
+[2026-03-13T17:38:25.517+0000] {base.py:294} INFO - Success criteria met. Exiting.
+[2026-03-13T17:38:25.518+0000] {filesystem.py:85} INFO - Poking for file /opt/data/input/sample.csv
+[2026-03-13T17:38:25.527+0000] {filesystem.py:89} INFO - Found File /opt/data/input/sample.csv last modified: 20260313173759
+[2026-03-13T17:38:25.528+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-13T17:38:25.534+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=event_trigger_pipeline, task_id=wait_for_input, run_id=manual__2026-03-13T17:37:37.333334+00:00, execution_date=20260313T173737, start_date=20260313T173825, end_date=20260313T173825
+[2026-03-13T17:38:25.580+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-03-13T17:38:25.615+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-13T17:38:25.637+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

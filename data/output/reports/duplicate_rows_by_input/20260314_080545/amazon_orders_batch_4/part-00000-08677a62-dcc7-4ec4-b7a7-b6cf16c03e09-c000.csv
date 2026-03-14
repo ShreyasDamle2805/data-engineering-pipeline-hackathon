@@ -1,0 +1,9 @@
+source_file,order_id,product_id,order_date,customer_id,ship_date,ship_mode,customer_name,segment,country,city,state,postal_code,region,category,sub_category,product_name,sales,quantity,discount,profit
+amazon_orders_batch_4.csv,AMZ-ORD-0003017,PROD-00120,2026-01-15,CUST-00103,2026-01-17,Second Class,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400021,South,Home,Kitchen,Desk Lamp,182.04,3,0.12,14.56
+amazon_orders_batch_4.csv,AMZ-ORD-0003017,PROD-00120,2026-01-15,CUST-00103,2026-01-17,Second Class,Isha Gupta,Consumer,India,Chennai,Tamil Nadu,400021,South,Home,Kitchen,Desk Lamp,182.04,3,0.12,14.56
+amazon_orders_batch_4.csv,AMZ-ORD-0003034,PROD-00239,2026-02-01,CUST-00205,2026-02-03,First Class,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400038,South,Beauty,Skincare,Echo Dot Speaker,333.91,2,0.24,6.68
+amazon_orders_batch_4.csv,AMZ-ORD-0003034,PROD-00239,2026-02-01,CUST-00205,2026-02-03,First Class,Kabir Nair,Consumer,India,Bengaluru,Karnataka,400038,South,Beauty,Skincare,Echo Dot Speaker,333.91,2,0.24,6.68
+amazon_orders_batch_4.csv,AMZ-ORD-0003051,PROD-00358,2026-01-10,CUST-00007,2026-01-12,Same Day,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400055,North,Electronics,Accessories,Desk Lamp,485.78,1,0.08,58.29
+amazon_orders_batch_4.csv,AMZ-ORD-0003051,PROD-00358,2026-01-10,CUST-00007,2026-01-12,Same Day,Priya Sharma,Consumer,India,Lucknow,Uttar Pradesh,400055,North,Electronics,Accessories,Desk Lamp,485.78,1,0.08,58.29
+amazon_orders_batch_4.csv,AMZ-ORD-0003068,PROD-00057,2026-01-27,CUST-00109,2026-01-29,Standard Class,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400072,East,Fashion,Apparel,Echo Dot Speaker,637.65,3,0.2,12.75
+amazon_orders_batch_4.csv,AMZ-ORD-0003068,PROD-00057,2026-01-27,CUST-00109,2026-01-29,Standard Class,Rahul Iyer,Consumer,India,Kolkata,West Bengal,400072,East,Fashion,Apparel,Echo Dot Speaker,637.65,3,0.2,12.75

@@ -1,0 +1,22 @@
+order_id,order_date,ship_date,ship_mode,customer_id,customer_name,segment,country,city,state,postal_code,region,product_id,category,sub_category,product_name,sales,quantity,discount,profit,source_file
+AMZ-ORD-0005025,2026-01-24,2026-01-25,Same Day,CUST-00001,Anaya Rao,Consumer,India,Ahmedabad,Gujarat,400031,West,PROD-00286,Home,Kitchen,Desk Lamp,402.91,-3,0.28,8.06,amazon_orders_batch_6.csv
+AMZ-ORD-0005027,,2026-01-27,Second Class,CUST-00017,Isha Gupta,Consumer,India,Lucknow,Uttar Pradesh,400033,North,PROD-00304,Beauty,Skincare,Monitor Stand,417.0,3,0.0,83.4,amazon_orders_batch_6.csv
+AMZ-ORD-0005031,2026-01-30,2026-01-31,Second Class,CUST-00049,Priya Sharma,Consumer,India,Hyderabad,Telangana,400037,South,PROD-00340,Fashion,Apparel,Water Bottle,,2,0.16,18.62,amazon_orders_batch_6.csv
+AMZ-ORD-0005033,2026-02-01,2026-02-02,Same Day,,Neha Verma,Consumer,India,Chennai,Tamil Nadu,400039,South,PROD-00358,Office,Stationery,Kindle Reader,489.78,4,1.45,9.8,amazon_orders_batch_6.csv
+,2026-02-05,2026-02-06,Same Day,CUST-00097,Isha Gupta,Consumer,India,Lucknow,Uttar Pradesh,400043,North,PROD-00394,Beauty,Skincare,Monitor Stand,528.13,3,0.04,84.5,amazon_orders_batch_6.csv
+AMZ-ORD-0005050,2026-01-08,2026-01-09,Standard Class,CUST-00201,Aarav Singh,Consumer,India,Bengaluru,Karnataka,400056,South,PROD-00091,Home,Kitchen,Echo Dot Speaker,675.65,-3,0.2,13.51,amazon_orders_batch_6.csv
+AMZ-ORD-0005054,,2026-01-13,Standard Class,CUST-00233,Kabir Nair,Consumer,India,Kolkata,West Bengal,400060,East,PROD-00127,Electronics,Accessories,Office Chair,714.0,5,0.0,142.8,amazon_orders_batch_6.csv
+AMZ-ORD-0005062,2026-01-20,2026-01-21,Standard Class,CUST-00297,Rohan Patel,Consumer,India,Pune,Maharashtra,400068,West,PROD-00199,Beauty,Skincare,Bluetooth Earbuds,,3,0.32,16.22,amazon_orders_batch_6.csv
+AMZ-ORD-0005066,2026-01-24,2026-01-25,Standard Class,,Vihaan Das,Consumer,India,Jaipur,Rajasthan,400072,North,PROD-00235,Fashion,Apparel,Smart Plug,849.39,2,1.45,67.95,amazon_orders_batch_6.csv
+,2026-02-01,2026-02-02,Standard Class,CUST-00093,Kabir Nair,Consumer,India,Kolkata,West Bengal,400080,East,PROD-00307,Electronics,Accessories,Office Chair,36.26,5,0.08,4.35,amazon_orders_batch_6.csv
+AMZ-ORD-0005075,2026-02-02,2026-02-03,Second Class,CUST-00101,Anaya Rao,Consumer,India,Ahmedabad,Gujarat,400081,West,PROD-00316,Home,Kitchen,Desk Lamp,48.39,-3,0.12,3.87,amazon_orders_batch_6.csv
+AMZ-ORD-0005081,,2026-02-09,Same Day,CUST-00149,Priya Sharma,Consumer,India,Hyderabad,Telangana,400087,South,PROD-00370,Fashion,Apparel,Water Bottle,111.0,2,0.0,22.2,amazon_orders_batch_6.csv
+AMZ-ORD-0005093,2026-01-10,2026-01-11,Same Day,CUST-00245,Neha Verma,Consumer,India,Chennai,Tamil Nadu,400099,South,PROD-00058,Office,Stationery,Kindle Reader,,4,0.12,19.71,amazon_orders_batch_6.csv
+AMZ-ORD-0005099,2026-01-16,2026-01-17,Second Class,,Meera Joshi,Consumer,India,Delhi,Delhi,400105,North,PROD-00112,Electronics,Accessories,Wireless Mouse,309.0,5,1.45,61.8,amazon_orders_batch_6.csv
+AMZ-ORD-0005100,2026-01-17,2026-01-18,First Class,CUST-00001,Aarav Singh,Consumer,India,Bengaluru,Karnataka,400106,South,PROD-00121,Home,Kitchen,Echo Dot Speaker,321.13,-3,0.04,51.38,amazon_orders_batch_6.csv
+AMZ-ORD-0005108,,2026-01-26,First Class,CUST-00065,Rahul Iyer,Consumer,India,Mumbai,Maharashtra,400114,West,PROD-00193,Office,Stationery,Backpack,408.0,4,0.0,81.6,amazon_orders_batch_6.csv
+,2026-01-28,2026-01-29,Second Class,CUST-00089,Priya Sharma,Consumer,India,Hyderabad,Telangana,400117,South,PROD-00220,Fashion,Apparel,Water Bottle,444.39,2,0.12,35.55,amazon_orders_batch_6.csv
+AMZ-ORD-0005124,2026-02-10,2026-02-11,First Class,CUST-00193,Kabir Nair,Consumer,India,Kolkata,West Bengal,400130,East,PROD-00337,Electronics,Accessories,Office Chair,,5,0.28,11.84,amazon_orders_batch_6.csv
+AMZ-ORD-0005125,2026-01-01,2026-01-02,Same Day,CUST-00201,Anaya Rao,Consumer,India,Ahmedabad,Gujarat,400131,West,PROD-00346,Home,Kitchen,Desk Lamp,604.04,-3,0.32,12.08,amazon_orders_batch_6.csv
+4,2026-03-14,2026-03-16,Standard Class,CUST-4,David,Consumer,India,DemoCity,DemoState,000000,Demo,PROD-4,General,General,Item-David,,1,0.0,0.0,simple_demo_3col.csv
+6,2026-03-14,2026-03-16,Standard Class,CUST-6,Frank,Consumer,India,DemoCity,DemoState,000000,Demo,PROD-6,General,General,Item-Frank,-25.0,1,0.0,0.0,simple_demo_3col.csv

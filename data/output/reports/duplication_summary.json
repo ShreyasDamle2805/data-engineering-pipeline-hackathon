@@ -1,0 +1,10 @@
+{
+  "run_id": "20260314_082042",
+  "rows_in_dataset": 102,
+  "duplicate_rows_detected": 16,
+  "final_rows_after_cleaning": 74,
+  "status": "SUCCESS",
+  "generated_at_utc": "2026-03-14T08:21:34.968846+00:00",
+  "per_input_summary_folder": "/opt/data/output/reports/duplication_summary_by_input",
+  "per_input_summary_flat_folder": "/opt/data/output/reports/duplication_summary"
+}
